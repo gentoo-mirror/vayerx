@@ -1,0 +1,24 @@
+app-admin/sudo offensive -sendmail
+app-editors/vim ruby
+app-emulation/qemu kqemu kvm vde
+app-emulation/wine -cups -ldap -ncurses -nls -odbc -scanner -ssl -xml
+app-office/akonadi-server -mysql sqlite
+dev-java/commons-logging log4j
+dev-java/sun-jdk -nsplugin
+dev-java/sun-jre-bin -nsplugin
+dev-lang/php cgi -crypt gd
+dev-python/PyQt4 declarative webkit
+dev-python/pystaff database rich
+dev-qt/qtdeclarative webkit
+games-strategy/freeciv aimodules modpack sqlite
+media-sound/clementine lastfm mms -mtp
+media-sound/picard coverart ffmpeg
+net-analyzer/rrdtool ruby
+net-analyzer/wireshark -gtk2 gtk3 -qt4 crypt
+sci-libs/hdf5 -threads
+sys-apps/util-linux static-libs
+sys-devel/llvm -ncurses
+vayerx/lxde gnome
+vayerx/office excessive gnome kde rich
+www-client/firefox -linguas_ru
+www-servers/lighttpd doc php rrdtool webdav
