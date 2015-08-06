@@ -1,7 +1,7 @@
 app-admin/conky iostats portmon
 app-admin/sudo -ldap -sendmail
 app-antivirus/clamav clamdtop
-app-crypt/heimdal -ssl
+app-crypt/heimdal -ssl -threads
 app-emulation/q4wine icoutils
 app-emulation/virtualbox extensions
 app-emulation/wine mono odbc s3tc samba staging
@@ -20,17 +20,20 @@ dev-qt/qtgui accessibility dbus
 dev-qt/qtsvg accessibility
 dev-ruby/rrdtool-bindings graph
 gnome-base/gvfs mtp
-kde-base/ark lzma
+kde-apps/ark lzma
 kde-base/gwenview -handbook kipi
 kde-base/kdelibs semantic-desktop
+mail-client/thunderbird -minimal system-icu system-sqlite
 mate-base/mate-applets networkmanager
 mate-base/mate-panel networkmanager
 mate-extra/mate-utils applet
 media-gfx/ufraw contrast timezone
 media-libs/chromaprint tools
 media-libs/gst-plugins-bad -gles2
+media-libs/libvpx postproc
 media-libs/mlt melt kdenlive -python
 media-libs/sdl-mixer mod modplug
+media-libs/vigra openexr
 media-plugins/audacious-plugins cue
 media-sound/asunder -aac
 media-sound/audacity id3tag twolame
@@ -46,7 +49,7 @@ net-misc/ciscovpn openssl
 net-misc/curl idn rtmp
 sci-geosciences/gpsd usb
 sci-geosciences/qlandkartegt gps
-sci-libs/gdal -python
+sci-libs/gdal -python -ruby
 sci-libs/hdf5 -cxx -fortran
 sci-mathematics/octave curl gnuplot
 sys-apps/lm_sensors sensord
@@ -55,5 +58,6 @@ sys-boot/grub -ncurses
 sys-libs/ncurses -gpm
 >=www-client/firefox-36 -system-cairo
 x11-libs/cairo -lto xlib-xcb
+x11-libs/fltk xft
 x11-libs/libdrm -valgrind
 x11-libs/libSM -uuid
