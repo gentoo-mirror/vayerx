@@ -1,0 +1,67 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-misc/sphinx:id64 - use 64-bit document and word IDs
+app-misc/sphinx:stemmer - Enable language stemming support
+dev-cpp/cppstaff:database - Database-related staff
+dev-cpp/cppstaff:exotic - Rarely used staff
+dev-cpp/cppstaff:rich - Don't mind installing excessive staff
+dev-cpp/cppstaff:testing - Modules for testing
+dev-libs/boost:context - Build and install the Boost.Context library and all other Boostlibraries that depends on it
+dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
+dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
+dev-libs/boost:eselect - Enable eselect support -- multi-slot installation.
+dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
+dev-libs/boost:std-cxx11 - Enable C++11 standard. GNU dialect of C++98 standard is used otherwise.
+dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
+dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
+dev-libs/thrift:c_glib - c_glib
+dev-libs/thrift:cpp - cpp
+dev-libs/thrift:csharp - csharp
+dev-libs/thrift:erlang - erlang
+dev-libs/thrift:go - go
+dev-libs/thrift:haskell - haskell
+dev-libs/thrift:php_extension - php_extension
+dev-libs/thrift:pic - php_extension
+dev-libs/thrift:xmsg_patch - apply 'exception' patch -- add message to what()
+dev-python/pystaff:database - Database-related staff
+dev-python/pystaff:rich - Don't mind installing excessive/rarely used staff
+dev-python/pystaff:testing - Modules for testing
+dev-ruby/rbstaff:database - Database-related staff
+dev-ruby/rbstaff:datamining - Packages for datamining
+dev-ruby/rbstaff:gui - GUI development staff
+dev-vcs/git-flow-completion:bash - Completion for bash
+dev-vcs/git-flow-completion:zsh - Completion for zsh
+dev-vcs/gitflow:completion - A Use-Flag to install the completion for bash and zsh
+games-engines/renpy:char_args_patch - Add patch for Everlasting Summer game
+games-engines/renpy:development - Install IDE for game developers and an empty game template
+games-fps/alienarena:rockethell - Increase missiles speed and amount of homing missiles per life.
+games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
+games-fps/alienarena-ng:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
+games-fps/urbanterror:client - Build client
+games-fps/urbanterror:server - Build server
+games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
+games-simulation/openttd:aplaymidi - Enables midi music in game, using aplaymidi as an external player
+games-simulation/openttd:dedicated - Build only the openttd server, and not the client.
+games-simulation/openttd:lzo - Enables LZO compression for savegames. This is only needed to load extremely old savegames. (versions before 0.2)
+games-simulation/openttd:openmedia - Enables the free open media sets: OpenGFX, OpenSFX, OpenMSX, removing the requirement for proprietary TTD assets to play OpenTTD.
+net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
+vayerx/314zdato:development - Install development staff
+vayerx/314zdato:lxde - Enable LXDE support
+vayerx/develop:cpp - C++ development
+vayerx/develop:database - Database-related staff
+vayerx/develop:exotic - Rarely used staff
+vayerx/develop:math - Math-related staff
+vayerx/develop:network - Networking staff
+vayerx/develop:python - Python development
+vayerx/develop:rich - Don't mind installing excessive GUI staff
+vayerx/develop:ruby - Ruby development
+vayerx/develop:testing - Modules for testing
+vayerx/lxde:xfce - Use terminal, task manager and other staff from XFCE
+vayerx/office:burn - Install CD/DVD/BR-burning tools
+vayerx/office:excessive - No, really, don't mind compiling a lot
+vayerx/office:mate - Use Mate/Gnome staff
+vayerx/office:rich - Don't mind installing excessive GUI staff
+vayerx/systaff:lxde - Use LXDE staff
+vayerx/systaff:rich - Don't mind installing excessive GUI staff
