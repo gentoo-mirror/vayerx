@@ -43,6 +43,7 @@ games-fps/alienarena-ng 7.66 9999: Fast-paced multiplayer deathmatch game
 games-fps/sauerbraten 2010.07.28: Cube 2: Sauerbraten is an open source game engine (Cube 2) with freeware game data (Sauerbraten)
 games-fps/urbanterror 4.1-r1 4.1.1807.251210: Hollywood tactical shooter based on the ioquake3 engine
 games-misc/everlasting-summer 1.2: Everlasting Summer is a visual novel about the days past.
+games-rpg/lipsofsuna 0.8.0 9999: Tongue-in-cheek dungeon crawl game. Client and Server
 games-simulation/openttd 1.4.4: OpenTTD is a clone of Transport Tycoon Deluxe
 games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
 media-gfx/bconv 0.0.6-r1: Yet another ImageMagick hardcore gui-frontend with multi-processing.
