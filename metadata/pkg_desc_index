@@ -3,7 +3,7 @@ app-misc/sphinx 2.2.6-r1: Full-text search engine with support for MySQL and Pos
 dev-cpp/cppstaff 0.3: Miscellaneous C++ staff, vayerx edition
 dev-cpp/gmock 9999: Google's C++ mocking framework
 dev-cpp/gtest 9999: Google C++ Testing Framework
-dev-db/Pyrseas 0.7.2: Framework and utilities to upgrade and maintain databases
+dev-db/Pyrseas 0.7.2 9999: Framework and utilities to upgrade and maintain databases
 dev-db/pguint 1.0.0: Unsigned and other extra integer types for PostgreSQL
 dev-db/yoyo-migrations 4.2.5: Database schema migration tool using SQL and DB-API
 dev-lang/ruby 2.0.0_p598 2.2.0: An object-oriented scripting language
