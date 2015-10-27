@@ -42,10 +42,6 @@ games-fps/alienarena-ng:vidmode - Link against x11-libs/libXxf86vm. Required for
 games-fps/urbanterror:client - Build client
 games-fps/urbanterror:server - Build server
 games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
-games-simulation/openttd:aplaymidi - Enables midi music in game, using aplaymidi as an external player
-games-simulation/openttd:dedicated - Build only the openttd server, and not the client.
-games-simulation/openttd:lzo - Enables LZO compression for savegames. This is only needed to load extremely old savegames. (versions before 0.2)
-games-simulation/openttd:openmedia - Enables the free open media sets: OpenGFX, OpenSFX, OpenMSX, removing the requirement for proprietary TTD assets to play OpenTTD.
 net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
 vayerx/314zdato:development - Install development staff
 vayerx/314zdato:lxde - Enable LXDE support
