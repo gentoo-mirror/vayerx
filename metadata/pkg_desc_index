@@ -19,10 +19,9 @@ dev-python/radar 0.3: Generate random date(time)
 dev-ruby/arcadia 1.0.0: Arcadia is a light IDE for Ruby language written in Ruby using the classic Tcl/Tk GUI toolkit.
 dev-ruby/debugger 1.6.8: A fast implementation of the standard Ruby debugger.
 dev-ruby/debugger-ruby_core_source 1.3.7: Provide Ruby core source files for C extensions that need them.
-dev-ruby/optiflag 0.7: Embeddable DSL library for declaring and using command-line options/flags.
-dev-ruby/parseconfig 1.0.4: Provides simple parsing of standard *nix style config files.
+dev-ruby/optiflag 0.7-r1: Embeddable DSL library for declaring and using command-line options/flags.
+dev-ruby/parseconfig 1.0.4-r1: Provides simple parsing of standard *nix style config files.
 dev-ruby/rbstaff 0.1: Miscellaneous Ruby staff, vayerx edition
-dev-ruby/ruby-libglade2 0.19.4: Ruby Libglade2 bindings
 dev-util/aptana 3.6.1: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
 dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666: A system for large project software construction, which is simple to use and powerful
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
@@ -44,8 +43,8 @@ games-fps/urbanterror 4.1-r1 4.1.1807.251210: Hollywood tactical shooter based o
 games-misc/everlasting-summer 1.2: Everlasting Summer is a visual novel about the days past.
 games-rpg/lipsofsuna 0.8.0 9999: Tongue-in-cheek dungeon crawl game. Client and Server
 games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
-media-gfx/bconv 0.0.6-r1: Yet another ImageMagick hardcore gui-frontend with multi-processing.
-media-gfx/imgsrc 0.8.6: Simple client for imgsrc.ru photo-hosting.
+media-gfx/bconv 0.0.6-r2: Yet another ImageMagick hardcore gui-frontend with multi-processing.
+media-gfx/imgsrc 0.8.6-r1: Simple client for imgsrc.ru photo-hosting.
 net-misc/ciscovpn 2.5.2019-r3: Cisco AnyConnect VPN Client
 sys-power/upsmon-usb 9999: Powercom UPS monitoring (USB)
 vayerx/314zdato 0.2: One Ring to rule them all
