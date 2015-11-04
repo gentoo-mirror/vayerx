@@ -4,6 +4,7 @@ dev-cpp/cppstaff 0.3: Miscellaneous C++ staff, vayerx edition
 dev-cpp/gmock 9999: Google's C++ mocking framework
 dev-cpp/gtest 9999: Google C++ Testing Framework
 dev-db/Pyrseas 0.7.2 9999: Framework and utilities to upgrade and maintain databases
+dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.0.0: Unsigned and other extra integer types for PostgreSQL
 dev-db/yoyo-migrations 4.2.5: Database schema migration tool using SQL and DB-API
 dev-lang/ruby 2.0.0_p598 2.2.0: An object-oriented scripting language
@@ -24,9 +25,7 @@ dev-ruby/rbstaff 0.1: Miscellaneous Ruby staff, vayerx edition
 dev-ruby/ruby-libglade2 0.19.4: Ruby Libglade2 bindings
 dev-util/aptana 3.6.1: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
 dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666: A system for large project software construction, which is simple to use and powerful
-dev-util/cmake 2.8.12.2-r100: Cross platform Make
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
-dev-util/nvidia-texture-tools 2.0.8: a set of cuda-enabled texture tools and compressors
 dev-util/osc 9999: Commandline client for the openSUSE build service
 dev-vcs/git-flow-completion 0.4.1.0: git flow completion for bash and zsh
 dev-vcs/git-review 9999: Tool to submit code to Gerrit
