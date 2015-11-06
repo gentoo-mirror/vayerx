@@ -27,6 +27,7 @@ dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666: A system f
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/osc 9999: Commandline client for the openSUSE build service
 dev-vcs/git-flow-completion 0.4.1.0: git flow completion for bash and zsh
+dev-vcs/git-lfs 1.0.2: Git extension for versioning large files
 dev-vcs/git-review 9999: Tool to submit code to Gerrit
 dev-vcs/gitflow 0.4.1: Git extensions supporting an advanced branching model
 games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter.
