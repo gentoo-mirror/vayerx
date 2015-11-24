@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=An epic action experience combining modern technology with addictive playability
+EAPI=3
+HOMEPAGE=http://shadowgroundsgame.com/
+IUSE=alsa
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=frozenbyte-eula
+RDEPEND=>=sys-libs/glibc-2.4 >=sys-devel/gcc-4.3.0 x86? ( gnome-base/libglade =media-libs/libsdl-1.2* =media-libs/sdl-image-1.2* =media-libs/sdl-ttf-2.0* virtual/ffmpeg media-libs/jpeg:62 media-libs/libogg =media-libs/openal-1* media-libs/libpng:1.2 media-libs/libvorbis ) amd64? ( app-emulation/emul-linux-x86-gtklibs app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-soundlibs[pulseaudio] ) media-sound/pulseaudio alsa? ( media-plugins/alsa-plugins[pulseaudio] ) games-misc/games-envd
+RESTRICT=fetch strip
+SLOT=0
+SRC_URI=shadowgroundsUpdate1.run
+_eclass_exported_funcs=pkg_preinst:games pkg_postinst:games pkg_setup:games src_unpack:- src_prepare:base src_configure:games src_compile:games src_install:-
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	games	4dae170e58f773c484e07d18ef441804	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	user	906f3c8eb3a2350a4f1191a89baa3e46
+_md5_=cbbedb890a9804731a29943b45db1e5f
