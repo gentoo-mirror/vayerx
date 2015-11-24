@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=>=dev-libs/boost-1.34.0 virtual/yacc sys-devel/flex dev-libs/openssl cpp? ( >=sys-libs/zlib-1.2.3 dev-libs/libevent ) csharp? ( >=dev-lang/mono-1.2.4 ) erlang? ( >=dev-lang/erlang-12.0.0 ) python? ( >=dev-lang/python-2.4.0 !dev-python/thrift ) perl? ( dev-lang/perl dev-perl/Bit-Vector dev-perl/Class-Accessor ) php? ( >=dev-lang/php-5.0.0 ) php_extension? ( >=dev-lang/php-5.0.0 ) ruby? ( virtual/rubygems ) haskell? ( dev-haskell/haskell-platform ) go? ( sys-devel/gcc[go] ) >=sys-devel/gcc-4.8 c_glib? ( dev-libs/glib )
+DESCRIPTION=Data serialization and communication toolwork
+EAPI=5
+HOMEPAGE=http://thrift.apache.org/about/
+IUSE=xmsg_patch +pic cpp c_glib csharp erlang python perl php php_extension ruby haskell go
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=dev-libs/boost-1.34.0 virtual/yacc sys-devel/flex dev-libs/openssl cpp? ( >=sys-libs/zlib-1.2.3 dev-libs/libevent ) csharp? ( >=dev-lang/mono-1.2.4 ) erlang? ( >=dev-lang/erlang-12.0.0 ) python? ( >=dev-lang/python-2.4.0 !dev-python/thrift ) perl? ( dev-lang/perl dev-perl/Bit-Vector dev-perl/Class-Accessor ) php? ( >=dev-lang/php-5.0.0 ) php_extension? ( >=dev-lang/php-5.0.0 ) ruby? ( virtual/rubygems ) haskell? ( dev-haskell/haskell-platform ) go? ( sys-devel/gcc[go] )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://apache/thrift/0.9.0/thrift-0.9.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=7d6746b1340dec5ff6c67eb709ef05ca
