@@ -39,7 +39,8 @@ dev-libs/thrift:erlang - erlang
 dev-libs/thrift:go - go
 dev-libs/thrift:haskell - haskell
 dev-libs/thrift:php_extension - php_extension
-dev-libs/thrift:pic - php_extension
+dev-libs/thrift:pic - Position-Independent Code
+dev-libs/thrift:std-cxx11 - Enable std::thread support.
 dev-libs/thrift:xmsg_patch - apply 'exception' patch -- add message to what()
 dev-python/pystaff:database - Database-related staff
 dev-python/pystaff:rich - Don't mind installing excessive/rarely used staff
