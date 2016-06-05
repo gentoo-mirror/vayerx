@@ -15,6 +15,7 @@ app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
 app-portage/mirrorselect
+app-portage/repoman
 app-portage/ufed
 app-shells/gentoo-bashcomp
 dev-util/ccache
@@ -25,6 +26,7 @@ net-analyzer/nmap
 net-analyzer/tcpdump
 net-analyzer/traceroute
 net-dns/bind-tools
+net-firewall/conntrack-tools
 net-firewall/shorewall
 net-misc/dhcpcd
 net-misc/netkit-telnetd
@@ -41,7 +43,6 @@ sys-apps/smartmontools
 sys-apps/usbutils
 sys-block/gparted
 sys-boot/grub-static
-sys-devel/gcc:4.9
 sys-fs/ddrescue
 sys-fs/inotify-tools
 sys-kernel/genkernel

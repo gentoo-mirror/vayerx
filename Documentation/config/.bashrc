@@ -46,6 +46,7 @@ alias calg="valgrind --tool=callgrind"
 alias valg="valgrind --track-origins=yes --num-callers=30"
 alias valm="valgrind --track-origins=yes --leak-check=full --show-leak-kinds=definite --num-callers=30"
 alias helg="valgrind --tool=helgrind --free-is-write=yes"
+alias masf="valgrind --tool=massif --heap=yes --stacks=no --depth=50 --max-snapshots=1000"
 
 # Docker
 for cmd in cp help info kill load ps save rm rmi run stop; do
@@ -158,28 +159,23 @@ EOF
     freeciv-server --saves ${HOME}/.freeciv/net --scenarios /usr/share/games/freeciv/scenarios --Database ${HOME}/.freeciv/fcdb.conf --auth --Newusers $file
 }
 
-function enforce_slot() {
-    local module=${1:?no module}
-    local slot=${2:?no slot}
-
-    while true; do
-        while eselect ${module} list | awk "(\$3 == \"*\" && \$1 != \"[${slot}]\") { exit 1; }"; do
-            sleep 1
-        done
-
-        date
-        eselect ${module} set ${slot}
-    done
+function exif2date() {
+    fname="${1:?no file specified}"
+    touch -t $(exiftool -p '$DateTimeOriginal' "$fname" | sed 's/[: ]//g;s/\(..$\)/\.\1/') "$fname"
 }
 
-function enforce_boost() {
-    local slot=${1:-1}
-    enforce_slot boost $slot
+function e2d_dir() {
+    dir="${1:-.}"
+    find "$dir" -iname '*.jpg' -or -iname '*.nef' | while read fname; do echo $fname; exif2date "$fname"; done
+
 }
 
+alias emerge-update="emerge -quDN --keep-going --verbose-conflicts --with-bdeps\=y world"
 alias emerge-preserved="emerge -q --keep-going @preserved-rebuild"
 alias emerge-modules="emerge -q --keep-going @module-rebuild"
 alias emerge-x11-modules="emerge -q --keep-going @x11-module-rebuild"
 alias emerge-update-world="emerge -avquDN --keep-going --with-bdeps=y --verbose-conflicts world"
+
+alias wget="wget --no-use-server-timestamps"
 
 umask 0002
