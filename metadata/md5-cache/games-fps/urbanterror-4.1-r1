@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=net-misc/curl vorbis? ( media-libs/libogg media-libs/libvorbis ) openal? ( media-libs/openal ) !dedicated? ( media-libs/libsdl[X,opengl] ) dedicated? ( media-libs/libsdl )
+DESCRIPTION=Hollywood tactical shooter based on the ioquake3 engine
+EAPI=2
+HOMEPAGE=http://www.urbanterror.net/
+IUSE=dedicated openal vorbis
+KEYWORDS=~amd64 ~x86
+LICENSE=freedist
+RDEPEND=net-misc/curl vorbis? ( media-libs/libogg media-libs/libvorbis ) openal? ( media-libs/openal ) !dedicated? ( media-libs/libsdl[X,opengl] ) dedicated? ( media-libs/libsdl ) games-misc/games-envd
+SLOT=0
+SRC_URI=ftp://ftp.snt.utwente.nl/pub/games/urbanterror/iourbanterror/source/complete/ioUrbanTerrorSource_2007_12_20.zip ftp://ftp.snt.utwente.nl/pub/games/urbanterror/UrbanTerror_41_FULL.zip http://files.uaaportal.com/gamefiles/current-version/UrbanTerror_41_FULL.zip http://upload.wikimedia.org/wikipedia/en/5/56/Urbanterror.svg
+_eclass_exported_funcs=pkg_preinst:games pkg_postinst:games pkg_setup:games src_unpack:base src_prepare:base src_configure:- src_compile:- src_install:-
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	792f83d5ec9536cb5ccef375469d8bde	games	2cf0d67d765e6358b435ccda30c13ad8	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	user	906f3c8eb3a2350a4f1191a89baa3e46
+_md5_=4561b21070f2521d53e1d2caa7633624

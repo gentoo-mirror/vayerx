@@ -2,6 +2,63 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/wine:capi - Enable ISDN support via CAPI
+app-emulation/wine:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine:opencl - Enable OpenCL support
+app-emulation/wine:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine:pipelight - Apply unofficial Wine-Staging patches for Pipelight/Silverlight support
+app-emulation/wine:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine:s3tc - Pull in media-libs/libtxc_dxtn for DXTn texture compression, needed for many games
+app-emulation/wine:samba - Add support for NTLM auth. see http://wiki.winehq.org/NtlmAuthSetupGuide and http://wiki.winehq.org/NtlmSigningAndSealing
+app-emulation/wine:staging - Apply unofficial Wine-Staging patches for advanced feature support that haven't made it into upstream Wine yet
+dev-cpp/cppstaff:database - Database-related staff
+dev-cpp/cppstaff:exotic - Rarely used staff
+dev-cpp/cppstaff:rich - Don't mind installing excessive staff
+dev-cpp/cppstaff:testing - Modules for testing
+dev-libs/boost:context - Build and install the Boost.Context library and all other Boostlibraries that depends on it
+dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
+dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
+dev-libs/boost:eselect - Enable eselect support -- multi-slot installation.
+dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
+dev-libs/boost:std-cxx11 - Enable C++11 standard. GNU dialect of C++98 standard is used otherwise.
+dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
+dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
+dev-libs/thrift:c_glib - c_glib
+dev-libs/thrift:cpp - cpp
+dev-libs/thrift:csharp - csharp
+dev-libs/thrift:erlang - erlang
+dev-libs/thrift:go - go
+dev-libs/thrift:haskell - haskell
+dev-libs/thrift:php_extension - php_extension
+dev-libs/thrift:pic - Position-Independent Code
+dev-libs/thrift:std-cxx11 - Enable std::thread support.
+dev-libs/thrift:xmsg_patch - apply 'exception' patch -- add message to what()
+dev-python/pystaff:database - Database-related staff
+dev-python/pystaff:rich - Don't mind installing excessive/rarely used staff
+dev-python/pystaff:testing - Modules for testing
+dev-ruby/rbstaff:database - Database-related staff
+dev-ruby/rbstaff:datamining - Packages for datamining
+dev-ruby/rbstaff:gui - GUI development staff
+dev-vcs/git-flow-completion:bash - Completion for bash
+dev-vcs/git-flow-completion:zsh - Completion for zsh
+dev-vcs/gitflow:completion - A Use-Flag to install the completion for bash and zsh
+games-engines/renpy:char_args_patch - Add patch for Everlasting Summer game
+games-engines/renpy:development - Install IDE for game developers and an empty game template
+games-fps/alienarena:rockethell - Increase missiles speed and amount of homing missiles per life.
+games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
+games-fps/alienarena-ng:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
+games-fps/urbanterror:client - Build client
+games-fps/urbanterror:server - Build server
+games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
+net-libs/rabbitmq-c:tools - Builds cli tools to interact with brokers
+net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
 vayerx/314zdato:development - Install development staff
 vayerx/314zdato:lxde - Enable LXDE support
 vayerx/develop:cpp - C++ development
@@ -20,3 +77,14 @@ vayerx/office:mate - Use Mate/Gnome staff
 vayerx/office:rich - Don't mind installing excessive GUI staff
 vayerx/systaff:lxde - Use LXDE staff
 vayerx/systaff:rich - Don't mind installing excessive GUI staff
+www-plugins/gnash:agg - Rendering based on the Anti-Grain Geometry Rendering Engine library
+www-plugins/gnash:cygnal - Enable building of the cygnal server
+www-plugins/gnash:dump - Enable dump output module for creating video from SWF
+www-plugins/gnash:egl - Enable EGL support for the OpenVG, OpenGL and X11 renderers
+www-plugins/gnash:gconf - Enable GConf configuration backend
+www-plugins/gnash:harden - Enable upstream recommended hardening build flags (may conflict with system ones)
+www-plugins/gnash:jemalloc - Use dev-libs/jemalloc for allocations
+www-plugins/gnash:openvg - Rendering based on the OpenVG graphics acceleration API
+www-plugins/gnash:sdl-sound - Enable SDL audio output for the standalone player
+www-plugins/gnash:ssh - Enable using SSH for network authentication in libnet
+www-plugins/gnash:ssl - Enable directly using OpenSSL in libnet (not needed for nsplugin ssl support)

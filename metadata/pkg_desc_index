@@ -1,5 +1,63 @@
+app-admin/eselect-boost 0.4-r1: boost module for eselect
+app-emulation/wine 1.7.54: Free implementation of Windows(tm) on Unix
+dev-cpp/cppstaff 0.3: Miscellaneous C++ staff, vayerx edition
+dev-cpp/gmock 9999: Google's C++ mocking framework
+dev-cpp/gtest 9999: Google C++ Testing Framework
+dev-db/Pyrseas 0.7.2 9999: Framework and utilities to upgrade and maintain databases
+dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
+dev-db/pguint 1.0.0: Unsigned and other extra integer types for PostgreSQL
+dev-db/yoyo-migrations 4.2.5: Database schema migration tool using SQL and DB-API
+dev-lang/ruby 2.0.0_p598 2.2.0: An object-oriented scripting language
+dev-libs/boost 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666: Boost Libraries for C++
+dev-libs/jsoncpp 0.6.0_rc2: C++ JSON reader and writer
+dev-libs/shflags 1.0.3: Simplified handling of command-line flags in Bourne based shells
+dev-libs/thrift 0.9.0-r3 0.9.3: Software framework for scalable cross-language services development
+dev-python/cx-oracle 5.1: Python interface to Oracle
+dev-python/jsonpath 0.54: XPath-like tool for JSON
+dev-python/profilehooks 1.8.1: Decorators for profiling Python functions
+dev-python/pystaff 0.2: Miscellaneous Python staff, vayerx edition
+dev-python/radar 0.3: Generate random date(time)
+dev-ruby/arcadia 1.0.0: Arcadia is a light IDE for Ruby language written in Ruby using the classic Tcl/Tk GUI toolkit.
+dev-ruby/debugger 1.6.8: A fast implementation of the standard Ruby debugger.
+dev-ruby/debugger-ruby_core_source 1.3.7: Provide Ruby core source files for C extensions that need them.
+dev-ruby/optiflag 0.7-r1: Embeddable DSL library for declaring and using command-line options/flags.
+dev-ruby/parseconfig 1.0.8: Provides simple parsing of standard *nix style config files.
+dev-ruby/rbstaff 0.1-r1: Miscellaneous Ruby staff, vayerx edition
+dev-util/aptana 3.6.1: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
+dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666: A system for large project software construction, which is simple to use and powerful
+dev-util/clion 2016.1.2: A complete toolset for C and C++ development
+dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
+dev-util/osc 9999: Commandline client for the openSUSE build service
+dev-util/pycharm-professional 2016.1.3: Intelligent Python IDE with unique code assistance and analysis
+dev-vcs/git-flow-completion 0.4.1.0: git flow completion for bash and zsh
+dev-vcs/git-lfs 1.0.2: Git extension for versioning large files
+dev-vcs/git-review 9999: Tool to submit code to Gerrit
+dev-vcs/gitflow 0.4.1: Git extensions supporting an advanced branching model
+games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter.
+games-action/shadowgrounds-bin 0_rc1: An epic action experience combining modern technology with addictive playability
+games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
+games-action/survivor 1.0.3 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
+games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
+games-action/trine-bin 1.10: A physics-based action game where diff characters allow diff solutions to challenges
+games-engines/renpy 6.18.3-r667: Visual novel engine written in python
+games-fps/alienarena 20120629-r1: Fast-paced multiplayer deathmatch game
+games-fps/alienarena-ng 7.66 9999: Fast-paced multiplayer deathmatch game
+games-fps/sauerbraten 2010.07.28: Cube 2: Sauerbraten is an open source game engine (Cube 2) with freeware game data (Sauerbraten)
+games-fps/urbanterror 4.1-r1 4.1.1807.251210: Hollywood tactical shooter based on the ioquake3 engine
+games-misc/everlasting-summer 1.2: Everlasting Summer is a visual novel about the days past.
+games-rpg/lipsofsuna 0.8.0 9999: Tongue-in-cheek dungeon crawl game. Client and Server
+games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
+media-gfx/bconv 0.0.8: Yet another ImageMagick hardcore gui-frontend with multi-processing.
+media-gfx/imgsrc 0.8.6-r1: Simple client for imgsrc.ru photo-hosting.
+net-libs/rabbitmq-c 0.7.1 0.8.0: RabbitMQ C client
+net-misc/ciscovpn 2.5.2019-r3: Cisco AnyConnect VPN Client
+sys-power/upsmon-usb 9999: Powercom UPS monitoring (USB)
 vayerx/314zdato 0.2: One Ring to rule them all
 vayerx/develop 0.1: Development meta package
 vayerx/lxde 0.4: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
 vayerx/office 0.5-r2: Office staff meta
 vayerx/systaff 0.2: System staff meta
+virtual/glu 9.0-r1: Virtual for OpenGL utility library
+www-plugins/gnash 0.8.10_p20160329-r666: GNU Flash movie player that supports many SWF v7,8,9 features
+x11-misc/obkey 1.0: Openbox Key Editor, written in Python + PyGTK
+x11-misc/xtrlock 2.2-r4 2.6-r10: A simplistic screen locking program for X
