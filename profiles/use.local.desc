@@ -70,7 +70,8 @@ vayerx/develop:python - Python development
 vayerx/develop:rich - Don't mind installing excessive GUI staff
 vayerx/develop:ruby - Ruby development
 vayerx/develop:testing - Modules for testing
-vayerx/lxde:xfce - Use terminal, task manager and other staff from XFCE
+vayerx/lxde:mate - Use terminal, task manager and other staff from MATE DE
+vayerx/lxde:xfce - Use terminal, task manager and other staff from XFCE DE
 vayerx/office:burn - Install CD/DVD/BR-burning tools
 vayerx/office:excessive - No, really, don't mind compiling a lot
 vayerx/office:mate - Use Mate/Gnome staff
