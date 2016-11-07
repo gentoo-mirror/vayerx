@@ -49,7 +49,6 @@ dev-ruby/rbstaff:gui - GUI development staff
 dev-vcs/git-flow-completion:bash - Completion for bash
 dev-vcs/git-flow-completion:zsh - Completion for zsh
 dev-vcs/gitflow:completion - A Use-Flag to install the completion for bash and zsh
-games-engines/renpy:char_args_patch - Add patch for Everlasting Summer game
 games-engines/renpy:development - Install IDE for game developers and an empty game template
 games-fps/alienarena:rockethell - Increase missiles speed and amount of homing missiles per life.
 games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
