@@ -28,7 +28,7 @@ dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666
 dev-util/clion 2016.1.2: A complete toolset for C and C++ development
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/osc 9999: Commandline client for the openSUSE build service
-dev-util/pycharm-professional 2016.2.3: Intelligent Python IDE with unique code assistance and analysis
+dev-util/pycharm-professional 2016.3.1: Intelligent Python IDE with unique code assistance and analysis
 dev-vcs/git-flow-completion 0.4.1.0: git flow completion for bash and zsh
 dev-vcs/git-lfs 1.0.2: Git extension for versioning large files
 dev-vcs/git-review 9999: Tool to submit code to Gerrit
@@ -56,7 +56,7 @@ sys-power/upsmon-usb 9999: Powercom UPS monitoring (USB)
 vayerx/314zdato 0.2: One Ring to rule them all
 vayerx/develop 0.1: Development meta package
 vayerx/lxde 0.5: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
-vayerx/office 0.5-r2: Office staff meta
+vayerx/office 0.5-r3: Office staff meta
 vayerx/systaff 0.2: System staff meta
 virtual/glu 9.0-r1: Virtual for OpenGL utility library
 www-plugins/gnash 0.8.10_p20160329-r666: GNU Flash movie player that supports many SWF v7,8,9 features
