@@ -1,4 +1,5 @@
 app-admin/eselect-boost 0.4-r1: boost module for eselect
+app-crypt/etoken-sac 9.0.43_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-emulation/wine 1.7.54: Free implementation of Windows(tm) on Unix
 dev-cpp/cppstaff 0.3: Miscellaneous C++ staff, vayerx edition
 dev-cpp/gmock 9999: Google's C++ mocking framework
