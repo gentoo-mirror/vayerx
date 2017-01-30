@@ -58,17 +58,6 @@ games-fps/urbanterror:server - Build server
 games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
 net-libs/rabbitmq-c:tools - Builds cli tools to interact with brokers
 net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
-vayerx/314zdato:development - Install development staff
-vayerx/314zdato:lxde - Enable LXDE support
-vayerx/develop:cpp - C++ development
-vayerx/develop:database - Database-related staff
-vayerx/develop:exotic - Rarely used staff
-vayerx/develop:math - Math-related staff
-vayerx/develop:network - Networking staff
-vayerx/develop:python - Python development
-vayerx/develop:rich - Don't mind installing excessive GUI staff
-vayerx/develop:ruby - Ruby development
-vayerx/develop:testing - Modules for testing
 vayerx/lxde:mate - Use terminal, task manager and other staff from MATE DE
 vayerx/lxde:xfce - Use terminal, task manager and other staff from XFCE DE
 vayerx/office:burn - Install CD/DVD/BR-burning tools
