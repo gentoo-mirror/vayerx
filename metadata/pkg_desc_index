@@ -9,12 +9,10 @@ dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.0.0: Unsigned and other extra integer types for PostgreSQL
 dev-db/yoyo-migrations 4.2.5: Database schema migration tool using SQL and DB-API
 dev-lang/ruby 2.0.0_p598 2.2.0: An object-oriented scripting language
-dev-libs/boost 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666 1.62.0-r666: Boost Libraries for C++
+dev-libs/boost 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666 1.62.0-r666 1.63.0-r666: Boost Libraries for C++
 dev-libs/jsoncpp 0.6.0_rc2: C++ JSON reader and writer
 dev-libs/shflags 1.0.3: Simplified handling of command-line flags in Bourne based shells
 dev-libs/thrift 0.9.0-r3 0.9.3: Software framework for scalable cross-language services development
-dev-python/cx-oracle 5.1: Python interface to Oracle
-dev-python/jsonpath 0.54: XPath-like tool for JSON
 dev-python/profilehooks 1.8.1: Decorators for profiling Python functions
 dev-python/pystaff 0.2: Miscellaneous Python staff, vayerx edition
 dev-python/radar 0.3: Generate random date(time)
@@ -25,7 +23,7 @@ dev-ruby/optiflag 0.7-r1: Embeddable DSL library for declaring and using command
 dev-ruby/parseconfig 1.0.8: Provides simple parsing of standard *nix style config files.
 dev-ruby/rbstaff 0.1-r1: Miscellaneous Ruby staff, vayerx edition
 dev-util/aptana 3.6.1: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
-dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666 1.62.0-r666: A system for large project software construction, simple to use and powerful
+dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666 1.62.0-r666 1.63.0-r666: A system for large project software construction, simple to use and powerful
 dev-util/clion 2016.1.2: A complete toolset for C and C++ development
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/pycharm-professional 2016.3.2: Intelligent Python IDE with unique code assistance and analysis
@@ -57,5 +55,5 @@ vayerx/systaff 0.2: System staff meta
 virtual/glu 9.0-r1: Virtual for OpenGL utility library
 www-plugins/gnash 0.8.10_p20160329-r666: GNU Flash movie player that supports many SWF v7,8,9 features
 x11-drivers/ati-drivers 15.12-r666: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
-x11-misc/obkey 1.0-r1: Openbox Key Editor, written in Python + PyGTK
+x11-misc/obkey 1.0-r2: Openbox Key Editor, written in Python + PyGTK
 x11-misc/xtrlock 2.2-r4 2.6-r10: A simplistic screen locking program for X
