@@ -22,6 +22,8 @@ dev-cpp/cppstaff:database - Database-related staff
 dev-cpp/cppstaff:exotic - Rarely used staff
 dev-cpp/cppstaff:rich - Don't mind installing excessive staff
 dev-cpp/cppstaff:testing - Modules for testing
+dev-cpp/gtest:gmock - Build also Google C++ mocking framework.
+dev-cpp/gtest:threads - Enable pthread.
 dev-libs/boost:context - Build and install the Boost.Context library and all other Boostlibraries that depends on it
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
@@ -58,6 +60,15 @@ games-fps/urbanterror:server - Build server
 games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
 net-libs/rabbitmq-c:tools - Builds cli tools to interact with brokers
 net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
+vayerx/develop:cpp - C++ development
+vayerx/develop:database - Database-related staff
+vayerx/develop:exotic - Rarely used staff
+vayerx/develop:math - Math-related staff
+vayerx/develop:network - Networking staff
+vayerx/develop:python - Python development
+vayerx/develop:rich - Don't mind installing excessive GUI staff
+vayerx/develop:ruby - Ruby development
+vayerx/develop:testing - Modules for testing
 vayerx/lxde:mate - Use terminal, task manager and other staff from MATE DE
 vayerx/lxde:xfce - Use terminal, task manager and other staff from XFCE DE
 vayerx/office:burn - Install CD/DVD/BR-burning tools
