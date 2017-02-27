@@ -1,11 +1,11 @@
 DEFINED_PHASES=-
 DESCRIPTION=Development meta package
-EAPI=5
+EAPI=6
 HOMEPAGE=http://github.com/vayerx/vayerx-gentoo
 IUSE=+cpp java ruby +python database postgres sqlite exotic +kde math +network +rich +testing
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-3
-PDEPEND=dev-util/meld kde? ( kde-apps/kdebase-runtime-meta kde-apps/kompare kde-apps/umbrello kde-misc/kdiff3 ) cpp? ( dev-cpp/cppstaff[rich?,exotic?,testing?,kde?] sys-devel/gcc[cxx] ) java? ( dev-java/javacc dev-util/idea-community ) ruby? ( dev-lang/ruby dev-ruby/rbstaff[database?] ) python? ( dev-lang/python dev-python/pystaff[database?,rich?,testing?] dev-python/spyder rich? ( dev-util/ninja-ide ) ) database? ( postgres? ( dev-db/pgadmin3 dev-db/postgresql-server ) sqlite? ( dev-db/sqlite dev-db/sqliteman ) ) math? ( sci-mathematics/qtoctave )
+PDEPEND=dev-util/meld kde? ( kde-apps/kdebase-runtime-meta kde-apps/kompare kde-apps/umbrello kde-misc/kdiff3 ) cpp? ( dev-cpp/cppstaff[rich?,exotic?,testing?,kde?] sys-devel/gcc[cxx] ) java? ( dev-java/javacc dev-util/idea-community ) ruby? ( dev-lang/ruby dev-ruby/rbstaff[database?] ) python? ( dev-lang/python dev-python/pystaff[database?,rich?,testing?] dev-python/spyder[pylint] rich? ( dev-util/ninja-ide ) ) database? ( postgres? ( dev-db/pgadmin3 dev-db/postgresql-server ) sqlite? ( dev-db/sqlite dev-db/sqliteman ) ) math? ( sci-mathematics/qtoctave )
 SLOT=0
 _eclass_exported_funcs=-
-_md5_=a8c164eda948b4e1305fb8de4080f215
+_md5_=5818cde36771685eee80a01ff8e7d27e
