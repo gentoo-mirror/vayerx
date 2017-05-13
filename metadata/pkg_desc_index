@@ -55,5 +55,6 @@ vayerx/systaff 0.3: System staff meta
 virtual/glu 9.0-r1: Virtual for OpenGL utility library
 www-plugins/gnash 0.8.10_p20160329-r666: GNU Flash movie player that supports many SWF v7,8,9 features
 x11-drivers/ati-drivers 15.12-r667: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
+x11-drivers/xf86-input-wacom 0.34.2: Driver for Wacom tablets and drawing devices
 x11-misc/obkey 1.0-r2: Openbox Key Editor, written in Python + PyGTK
 x11-misc/xtrlock 2.2-r4 2.6-r10: A simplistic screen locking program for X
