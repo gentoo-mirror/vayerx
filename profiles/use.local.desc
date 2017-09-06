@@ -34,12 +34,6 @@ dev-libs/boost:threads - Build multi-thread-compatible libraries instead of sing
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-libs/thrift:c_glib - c_glib
 dev-libs/thrift:cpp - cpp
-dev-libs/thrift:csharp - csharp
-dev-libs/thrift:erlang - erlang
-dev-libs/thrift:go - go
-dev-libs/thrift:haskell - haskell
-dev-libs/thrift:php_extension - php_extension
-dev-libs/thrift:pic - Position-Independent Code
 dev-libs/thrift:std-cxx11 - Enable std::thread support.
 dev-libs/thrift:xmsg_patch - apply 'exception' patch -- add message to what()
 dev-python/pystaff:database - Database-related staff
