@@ -7,5 +7,4 @@ KEYWORDS=~x86 ~amd64
 LICENSE=GPL-3
 PDEPEND=database? ( dev-ruby/sqlite3 ) gui? ( dev-ruby/ruby-gtk3 ) datamining? ( dev-ruby/mechanize )
 SLOT=0
-_eclass_exported_funcs=-
 _md5_=d297f7bb0993c2dfff23ab2535b5195a

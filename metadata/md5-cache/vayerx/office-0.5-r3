@@ -7,5 +7,4 @@ KEYWORDS=~x86 ~amd64
 LICENSE=GPL-3
 PDEPEND=burn? ( app-cdr/bin2iso app-cdr/cdw app-cdr/iat app-cdr/nrg2iso app-cdr/cuetools kde? ( kde-apps/k3b ) !kde? ( app-cdr/xfburn ) ) kde? ( kde-apps/gwenview kde-apps/kolourpaint kde-apps/okular ) gtk? ( dev-util/geany ) !gtk? ( app-editors/leafpad ) mate? ( x11-themes/mate-icon-theme ) !mate? ( x11-themes/gnome-icon-theme ) rich? ( excessive? ( app-office/libreoffice ) !excessive? ( app-office/libreoffice-bin ) mail-client/thunderbird www-client/firefox ) !rich? ( app-office/libreoffice-bin mail-client/thunderbird-bin www-client/firefox-bin ) rich? ( excessive? ( app-text/chm2pdf ) app-text/djview app-text/mupdf app-office/dia media-gfx/exif media-gfx/exiftags media-sound/picard media-video/vlc abi_x86_32? ( app-emulation/wine app-emulation/winetricks ) )
 SLOT=0
-_eclass_exported_funcs=-
 _md5_=fede79f4902475cef7d22984160dcb5a
