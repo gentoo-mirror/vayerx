@@ -10,7 +10,7 @@ dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.0.0: Unsigned and other extra integer types for PostgreSQL
 dev-db/yoyo-migrations 4.2.5: Database schema migration tool using SQL and DB-API
 dev-lang/ruby 2.0.0_p598 2.2.0: An object-oriented scripting language
-dev-libs/boost 1.62.0-r666 1.63.0-r666 1.65.0-r666: Boost Libraries for C++
+dev-libs/boost 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666 1.62.0-r666 1.63.0-r666 1.65.0-r666: Boost Libraries for C++
 dev-libs/jsoncpp 0.6.0_rc2: C++ JSON reader and writer
 dev-libs/shflags 1.0.3: Simplified handling of command-line flags in Bourne based shells
 dev-libs/thrift 0.9.3 0.10.0: Software framework for scalable cross-language services development

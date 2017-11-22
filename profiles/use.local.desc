@@ -29,7 +29,6 @@ dev-libs/boost:debug - Build and install only the debug version of the Boost lib
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
 dev-libs/boost:eselect - Enable eselect support -- multi-slot installation.
 dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
-dev-libs/boost:std-cxx11 - Enable C++11 standard. GNU dialect of C++98 standard is used otherwise.
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-libs/thrift:c_glib - c_glib
