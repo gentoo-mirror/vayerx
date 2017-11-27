@@ -33,8 +33,10 @@ dev-libs/boost:threads - Build multi-thread-compatible libraries instead of sing
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-libs/thrift:c_glib - c_glib
 dev-libs/thrift:cpp - cpp
+dev-libs/thrift:libevent - Enable libevent support.
+dev-libs/thrift:openssl - Enable openssl support.
 dev-libs/thrift:std-cxx11 - Enable std::thread support.
-dev-libs/thrift:xmsg_patch - apply 'exception' patch -- add message to what()
+dev-libs/thrift:stdthreads - Enable std::threads support.
 dev-python/pystaff:database - Database-related staff
 dev-python/pystaff:rich - Don't mind installing excessive/rarely used staff
 dev-python/pystaff:testing - Modules for testing
