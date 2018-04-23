@@ -8,5 +8,5 @@ RDEPEND=gui? ( app-arch/bzip2 app-crypt/mit-krb5 dev-libs/expat dev-libs/gmp dev
 RESTRICT=fetch
 SLOT=0
 SRC_URI=CQue_v3.0.0_Linux_32_64_EN.tar.zip
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	versionator	ce21313503c41896ebcd7d58b0607e37
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
 _md5_=35f403fd1ef8117b13257619b1afcca2
