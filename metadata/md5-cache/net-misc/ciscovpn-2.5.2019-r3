@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst unpack
+DEFINED_PHASES=install nofetch postinst unpack
 DESCRIPTION=Cisco AnyConnect VPN Client
 EAPI=5
 HOMEPAGE=http://www.cisco.com
