@@ -1,4 +1,4 @@
-dev-db/yoyo-migrations 4.2.5: Unsigned and other extra integer types for PostgreSQL
+dev-db/pguint 1.0.0: Unsigned and other extra integer types for PostgreSQL
 dev-python/elasticsearch-py 2.5.0: official Python low-level client for Elasticsearch
 dev-ruby/optiflag 0.7-r1: Embeddable DSL library for declaring and using command-line options/flags.
 games-fps/alienarena 20120629-r1: Fast-paced multiplayer deathmatch game
