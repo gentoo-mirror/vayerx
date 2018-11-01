@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=>=dev-db/postgresql-9.1
+DESCRIPTION=Unsigned and other extra integer types for PostgreSQL
+EAPI=7
+HOMEPAGE=https://github.com/petere/pguint
+KEYWORDS=amd64
+RDEPEND=>=dev-db/postgresql-9.1
+SLOT=0
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=3b37425979d87fac93ae3898dbfef8ad

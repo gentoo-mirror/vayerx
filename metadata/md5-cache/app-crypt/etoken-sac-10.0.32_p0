@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=dev-libs/atk dev-libs/glib:2 dev-libs/openssl media-libs/fontconfig media-libs/freetype sys-apps/dbus sys-apps/pcsc-lite virtual/libusb:0 x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/pango ssl? ( dev-libs/libp11 ) !app-crypt/pkiclient >=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
+EAPI=7
+HOMEPAGE=http://aladdin-rd.ru
+IUSE=+ssl
+KEYWORDS=~amd64
+LICENSE=EULA
+RDEPEND=dev-libs/atk dev-libs/glib:2 dev-libs/openssl media-libs/fontconfig media-libs/freetype sys-apps/dbus sys-apps/pcsc-lite virtual/libusb:0 x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/pango ssl? ( dev-libs/libp11 ) !app-crypt/pkiclient
+RESTRICT=fetch
+SLOT=0
+SRC_URI=SafenetAuthenticationClient-10.0.32-0.x86_64.rpm
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	multilib	b2f01ad412baf81650c23fcf0975fa33	rpm	f52cfa3a435468d86d3b49c357b9cb35	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_md5_=42c74855356e99611bc693f4532368b0
