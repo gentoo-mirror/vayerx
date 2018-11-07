@@ -4,7 +4,6 @@ dev-ruby/optiflag 0.7-r1: Embeddable DSL library for declaring and using command
 dev-util/gource 0.49: A software version control visualization tool
 games-fps/alienarena 20120629-r1: Fast-paced multiplayer deathmatch game
 games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
-mail-client/thunderbird 52.9.1: Thunderbird Mail Client
 media-gfx/imgsrc 0.8.6-r1: Simple client for imgsrc.ru photo-hosting.
 net-libs/rabbitmq-c 0.7.1 0.8.0: RabbitMQ C client
 sys-firmware/intel-microcode 20171117 20180108: Intel IA32/IA64 microcode update data
