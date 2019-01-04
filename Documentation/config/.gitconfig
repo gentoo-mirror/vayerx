@@ -37,6 +37,7 @@
 
 [commit]
 	status = false
+	gpgsign = true
 
 [core]
 	eol = native
@@ -76,3 +77,5 @@
 
 [user]
 	name = Vasiliy Yeremeyev
+	email = vayerx@gmail.com
+	signingkey = B389C7C2C7876F84
