@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=OPENLDAP
 RDEPEND=!dev-db/lmdb
 SLOT=0
-_eclasses_=git-2	249c1a0962573f4ce2c28f0d5b6b35d4	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_eclasses_=git-2	249c1a0962573f4ce2c28f0d5b6b35d4	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
 _md5_=5f7b631bc82962861e43bbbfab21cc11
