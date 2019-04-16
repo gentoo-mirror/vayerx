@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=The most intelligent Ruby and Rails IDE
+EAPI=7
+HOMEPAGE=http://jetbrains.com/ruby/
+IUSE=+debugger +rubocop
+KEYWORDS=~amd64
+LICENSE=JetBrains-EULA
+RDEPEND=>=virtual/jdk-1.7 debugger? ( dev-ruby/ruby-debug-ide ) rubocop? ( dev-ruby/rubocop )
+RESTRICT=strip
+SLOT=2019
+SRC_URI=http://download.jetbrains.com/ruby/RubyMine-2019.1.tar.gz
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_md5_=ba1b05472c578e449a34dc6605808abc
