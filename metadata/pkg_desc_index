@@ -10,4 +10,3 @@ sys-firmware/intel-microcode 20171117 20180108: Intel IA32/IA64 microcode update
 www-plugins/gnash 0.8.10_p20160329-r667: GNU Flash movie player that supports many SWF v7,8,9 features
 x11-drivers/ati-drivers 15.12-r667: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/xf86-input-wacom 0.34.2: Driver for Wacom tablets and drawing devices
-x11-misc/xtrlock 2.2-r4: A simplistic screen locking program for X
