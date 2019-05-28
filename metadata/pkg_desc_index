@@ -1,5 +1,6 @@
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
 dev-python/elasticsearch-py 2.5.0: official Python low-level client for Elasticsearch
+dev-python/pytest 3.1.3: Simple powerful testing with Python
 dev-ruby/optiflag 0.7-r2: Embeddable DSL library for declaring and using command-line options/flags.
 dev-util/gource 0.49: A software version control visualization tool
 games-fps/alienarena 20120629-r1: Fast-paced multiplayer deathmatch game
