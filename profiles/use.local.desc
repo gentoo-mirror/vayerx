@@ -2,12 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-games-fps/alienarena:rockethell - Increase missiles speed and amount of homing missiles per life.
-games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
 net-libs/rabbitmq-c:tools - Builds cli tools to interact with brokers
-sys-firmware/intel-microcode:initramfs - install a small initramfs for use with CONFIG_MICROCODE_EARLY
-sys-firmware/intel-microcode:monolithic - install the large text microcode.dat (used by older kernels via microcode_ctl)
-sys-firmware/intel-microcode:split-ucode - install the split binary ucode files (used by the kernel directly)
 www-plugins/gnash:agg - Rendering based on the Anti-Grain Geometry Rendering Engine library
 www-plugins/gnash:cygnal - Enable building of the cygnal server
 www-plugins/gnash:dump - Enable dump output module for creating video from SWF
@@ -19,7 +14,3 @@ www-plugins/gnash:openvg - Rendering based on the OpenVG graphics acceleration A
 www-plugins/gnash:sdl-sound - Enable SDL audio output for the standalone player
 www-plugins/gnash:ssh - Enable using SSH for network authentication in libnet
 www-plugins/gnash:ssl - Enable directly using OpenSSL in libnet (not needed for nsplugin ssl support)
-x11-drivers/ati-drivers:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
-x11-drivers/ati-drivers:modules - Build the kernel modules
-x11-drivers/ati-drivers:pax_kernel - Enable pax kernel specific patches
-x11-drivers/ati-drivers:qt4 - Install qt4 dependent optional tools (e.g Catalyst Control Panel)
