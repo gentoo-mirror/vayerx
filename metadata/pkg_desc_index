@@ -1,10 +1,81 @@
+app-admin/eselect-boost 0.5: boost module for eselect
+app-arch/libarchive 9999: Multi-format archive and compression library
+app-crypt/etoken-sac 9.1.7_p0 10.0.32_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
+app-misc/elasticsearch 2.4.4: Open Source, Distributed, RESTful, Search Engine
+dev-cpp/cppstaff 0.4-r1: Miscellaneous C++ staff, vayerx edition
+dev-cpp/gtest 1.8.0 9999: Google C++ Testing Framework
+dev-db/Pyrseas 0.7.2 9999: Framework and utilities to upgrade and maintain databases
+dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
+dev-db/yoyo-migrations 4.2.5: Database schema migration tool using SQL and DB-API
+dev-lang/ruby 2.0.0_p598 2.2.0: An object-oriented scripting language
+dev-libs/boost 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666 1.62.0-r666 1.63.0-r666 1.65.0-r666 1.67.0-r666 1.68.0-r666 1.70.0-r666: Boost Libraries for C++
+dev-libs/hdfs3 9999: A Native C/C++ HDFS Client
+dev-libs/jsoncpp 0.6.0_rc2: C++ JSON reader and writer
+dev-libs/shflags 1.0.3: Simplified handling of command-line flags in Bourne based shells
+dev-libs/thrift 0.9.3 0.10.0 0.11.0: Software framework for scalable cross-language services development
 dev-python/elasticsearch-py 2.5.0: official Python low-level client for Elasticsearch
+dev-python/hdfs 2.1.0: HdfsCLI: API and command line interface for HDFS
+dev-python/overrides 1.9: A decorator to automatically detect mismatch when overriding a method.
+dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to connect and interact with Postgres databases
+dev-python/portalocker 1.2.1: Generate random date(time)
+dev-python/profilehooks 1.8.1: Decorators for profiling Python functions
+dev-python/publicsuffixlist 0.6.2: Public Suffix List parser implementation.
+dev-python/py-postgresql 1.2.1: PostgreSQL driver and tools library.
+dev-python/pymssql 2.1.3: Simple MSSQL python extension module
+dev-python/pystaff 0.2: Miscellaneous Python staff, vayerx edition
 dev-python/pytest 3.1.3: Simple powerful testing with Python
+dev-python/python-json-logger 0.1.8: Generate random date(time)
+dev-python/radar 0.3: Generate random date(time)
+dev-ruby/debase 0.2.2-r2 0.2.3_beta2: ruby-debug is a fast implementation of the standard Ruby debugger
+dev-ruby/debase-ruby_core_source 0.10.3 0.10.4: Provide Ruby core source files for C extensions that need them.
+dev-ruby/jaro_winkler 1.5.2: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/optiflag 0.7-r2: Embeddable DSL library for declaring and using command-line options/flags.
+dev-ruby/parseconfig 1.0.8-r1: Provides simple parsing of standard *nix style config files.
+dev-ruby/powerpack 0.1.2-r1: A few useful extensions to core Ruby classes
+dev-ruby/rbstaff 0.1-r1: Miscellaneous Ruby staff, vayerx edition
+dev-ruby/rubocop 0.60.0 0.62.0: Automatic Ruby code style checking tool
+dev-ruby/ruby-debug-ide 0.6.1 0.7.0_beta6: An interface which glues ruby-debug to IDEs
+dev-ruby/unicode-display_width 1.4.1: Determines the monospace display width of a string
+dev-util/aptana 3.7.2: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
+dev-util/boost-build 1.55.0-r667 1.56.0-r666 1.57.0-r666 1.58.0-r666 1.59.0-r666 1.60.0-r666 1.61.0-r666 1.62.0-r666 1.63.0-r666 1.65.0-r666 1.67.0-r666 1.68.0-r666 1.70.0-r666: A system for large project software construction, simple to use and powerful
 dev-util/gource 0.49: A software version control visualization tool
+dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
+dev-util/pycharm-community 2019.1.1: Intelligent Python IDE with unique code assistance and analysis
+dev-util/pycharm-professional 2019.1.1: Intelligent Python IDE with unique code assistance and analysis
+dev-util/rubymine 2018.2.4 2018.3.2 2018.3.5 2019.1: The most intelligent Ruby and Rails IDE
+dev-vcs/git-flow-completion 0.4.1.0: git flow completion for bash and zsh
+dev-vcs/git-review 9999: Tool to submit code to Gerrit
+dev-vcs/gitflow 0.4.1: Git extensions supporting an advanced branching model
+games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter.
+games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
+games-action/survivor 1.0.3 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
+games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
+games-engines/renpy 6.18.3-r667: Visual novel engine written in python
+games-fps/alienarena 20120629-r1: Fast-paced multiplayer deathmatch game
+games-fps/alienarena-ng 7.66 9999: Fast-paced multiplayer deathmatch game
+games-fps/sauerbraten 2010.07.28: Cube 2: Sauerbraten is an open source game engine (Cube 2) with freeware game data (Sauerbraten)
+games-fps/urbanterror 4.1-r1 4.1.1807.251210: Hollywood tactical shooter based on the ioquake3 engine
+games-misc/everlasting-summer 1.2: Everlasting Summer is a visual novel about the days past.
+games-rpg/lipsofsuna 0.8.0 9999: Tongue-in-cheek dungeon crawl game. Client and Server
 games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
+mail-client/thunderbird 52.9.1: Thunderbird Mail Client
+media-gfx/bconv 0.0.8: Yet another ImageMagick hardcore gui-frontend with multi-processing.
 media-gfx/imgsrc 0.8.6-r1: Simple client for imgsrc.ru photo-hosting.
+media-sound/sndio 1.3.0 1.4.0-r1: small audio and MIDI framework part of the OpenBSD project
 net-libs/rabbitmq-c 0.7.1 0.8.0: RabbitMQ C client
+net-misc/ciscovpn 2.5.2019-r3: Cisco AnyConnect VPN Client
+net-print/cque 3.0.0: Canon CQue Linux Driver
+sys-firmware/intel-microcode 20171117 20180108: Intel IA32/IA64 microcode update data
+sys-power/upsmon-usb 9999: Powercom UPS monitoring (USB)
+vayerx/develop 0.1-r4: Development meta package
+vayerx/lxde 0.5-r1: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
+vayerx/office 0.6: Office staff meta
+vayerx/systaff 0.3: System staff meta
+virtual/glu 9.0-r1: Virtual for OpenGL utility library
+www-client/firefox 56.0: Firefox Web Browser
 www-plugins/gnash 0.8.10_p20160329-r667: GNU Flash movie player that supports many SWF v7,8,9 features
+x11-drivers/ati-drivers 15.12-r667: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/xf86-input-wacom 0.34.2: Driver for Wacom tablets and drawing devices
+x11-misc/obkey 1.0-r2: Openbox Key Editor, written in Python + PyGTK
+x11-misc/xtrlock 2.8-r10: A simplistic screen locking program for X
