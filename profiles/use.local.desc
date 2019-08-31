@@ -69,7 +69,6 @@ sys-firmware/intel-microcode:monolithic - install the large text microcode.dat (
 sys-firmware/intel-microcode:split-ucode - install the split binary ucode files (used by the kernel directly)
 vayerx/develop:cpp - C++ development
 vayerx/develop:database - Database-related staff
-vayerx/develop:exotic - Rarely used staff
 vayerx/develop:math - Math-related staff
 vayerx/develop:network - Networking staff
 vayerx/develop:python - Python development
