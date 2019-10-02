@@ -14,6 +14,7 @@ dev-libs/hdfs3 9999: A Native C/C++ HDFS Client
 dev-libs/jsoncpp 0.6.0_rc2: C++ JSON reader and writer
 dev-libs/shflags 1.0.3: Simplified handling of command-line flags in Bourne based shells
 dev-libs/thrift 0.9.3 0.10.0 0.11.0: Software framework for scalable cross-language services development
+dev-python/clickhouse-driver 0.1.1: ClickHouse Python Driver
 dev-python/elasticsearch-py 2.5.0: official Python low-level client for Elasticsearch
 dev-python/hdfs 2.1.0: HdfsCLI: API and command line interface for HDFS
 dev-python/overrides 1.9: A decorator to automatically detect mismatch when overriding a method.
