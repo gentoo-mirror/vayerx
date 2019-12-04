@@ -54,58 +54,31 @@ src_prepare() {
 		eapply "${FILESDIR}/${PN}-${patch}"
 	done
 
-	# Remove stripping option
-	# Fix python components build on multilib systems, bug #496446
-	cd "${S}/engine" || die
-	sed -i \
-		-e 's|-s\b||' \
-		-e "/libpython/s;lib ];$(get_libdir) ];" \
-		build.jam || die "sed failed"
-
-	# Force regeneration
-	rm jambase.c || die
-
 	# This patch allows us to fully control optimization
 	# and stripping flags when bjam is used as build-system
 	# We simply extend the optimization and debug-symbols feature
 	# with empty dummies called 'none'
 	cd "${S}" || die
-	sed -i \
-		-e 's/\(off speed space\)/\1 none/' \
-		-e 's/\(debug-symbols      : on off\)/\1 none/' \
-		tools/builtin.jam || die "sed failed"
+	sed -e '/^cpu-flags\s*gcc\s*OPTIONS/d' \
+		-e '/toolset\.flags\s*gcc\s*OPTIONS/d' \
+		-e "/cpu_flags('gcc',\s*'OPTIONS'/d" \
+		-i tools/gcc.{jam,py} || die "Failed removing -march/-mcpu"
 }
 
 src_configure() {
 	hprefixify engine/Jambase
-
-	if use python; then
-		# replace versions by user-selected one (TODO: fix this when slot-op
-		# deps are available to always match the best version available)
-		sed -i \
-			-e "s|27 26 25 24 23 22|${EPYTHON#python}|" \
-			engine/build.jam || die "sed failed"
-	fi
+	tc-export CXX
 }
 
 src_compile() {
 	cd engine || die
-
-	local toolset
-
-	if [[ ${CHOST} == *-darwin* ]]; then
-		toolset=darwin
-	else
-		# Using boost's generic toolset here, which respects CC and CFLAGS
-		toolset=cc
-	fi
 
 	# For slotting
 	sed -i \
 		-e "s|/usr/share/boost-build|/usr/share/boost-build-${MAJOR_PV}|" \
 		Jambase || die "sed failed"
 
-	CC=$(tc-getCC) ./build.sh ${toolset} -d+2 $(use_with python python "${ESYSROOT}"/usr) || die "building bjam failed"
+	CC=$(tc-getCC) ./build.sh -d+2 $(use_with python python "${ESYSROOT}"/usr) || die "building bjam failed"
 }
 
 src_test() {
@@ -122,8 +95,8 @@ src_test() {
 }
 
 src_install() {
-	newbin engine/bin.*/bjam bjam-${MAJOR_PV}
-	newbin engine/bin.*/b2 b2-${MAJOR_PV}
+	newbin engine/bjam bjam-${MAJOR_PV}
+	newbin engine/b2 b2-${MAJOR_PV}
 
 	insinto /usr/share/boost-build-${MAJOR_PV}
 	doins -r "${FILESDIR}/site-config.jam" \
