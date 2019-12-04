@@ -246,21 +246,21 @@ multilib_src_compile() {
 
 multilib_src_install_all() {
 	if ! use numpy; then
-		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/python/numpy* || die
+		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/boost/python/numpy* || die
 	fi
 
 	if ! use python; then
-		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/{python*,mpi/python*,parameter/aux_/python,parameter/python*} || die
+		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/boost/{python*,mpi/python*,parameter/aux_/python,parameter/python*} || die
 	fi
 
 	if ! use nls; then
-		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/locale || die
+		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/boost/locale || die
 	fi
 
 	if ! use context; then
-		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/context || die
-		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/coroutine{,2} || die
-		rm    "${ED%/}"/usr/include/boost-${MAJOR_V}/asio/spawn.hpp || die
+		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/boost/context || die
+		rm -r "${ED%/}"/usr/include/boost-${MAJOR_V}/boost/coroutine{,2} || die
+		rm    "${ED%/}"/usr/include/boost-${MAJOR_V}/boost/asio/spawn.hpp || die
 	fi
 
 	if use doc; then
