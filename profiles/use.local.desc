@@ -36,9 +36,6 @@ dev-ruby/rbstaff:datamining - Packages for datamining
 dev-ruby/rbstaff:gui - GUI development staff
 dev-util/rubymine:debugger - Install debugger
 dev-util/rubymine:rubocop - Install Rubocop code inspection
-dev-vcs/git-flow-completion:bash - Completion for bash
-dev-vcs/git-flow-completion:zsh - Completion for zsh
-dev-vcs/gitflow:completion - A Use-Flag to install the completion for bash and zsh
 games-engines/renpy:development - Install IDE for game developers and an empty game template
 games-fps/alienarena:rockethell - Increase missiles speed and amount of homing missiles per life.
 games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
@@ -46,27 +43,8 @@ games-fps/alienarena-ng:vidmode - Link against x11-libs/libXxf86vm. Required for
 games-fps/urbanterror:client - Build client
 games-fps/urbanterror:server - Build server
 games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
-mail-client/thunderbird:bindist - Disable official Thunderbird branding (icons, name) which are not binary-redistributable according to upstream.
-mail-client/thunderbird:crypt - Enable encryption support with enigmail
-mail-client/thunderbird:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
-mail-client/thunderbird:gtk2 - Use the cairo-gtk2 rendering engine instead of the default cairo-gtk3
-mail-client/thunderbird:jemalloc - Enable or disable jemalloc
-mail-client/thunderbird:lightning - Enable app-global calendar support (note 38.0 and above bundles calendar support when this flag is off)
-mail-client/thunderbird:minimal - Remove the software development kit and headers
-mail-client/thunderbird:mozdom - Enable Mozilla's DOM inspector
-mail-client/thunderbird:rust - Enable support for using rust compiler (experimental)
-mail-client/thunderbird:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
-mail-client/thunderbird:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
-mail-client/thunderbird:system-icu - Use the system-wide dev-libs/icu instead of bundled.
-mail-client/thunderbird:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
-mail-client/thunderbird:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
-mail-client/thunderbird:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
-mail-client/thunderbird:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 net-libs/rabbitmq-c:tools - Builds cli tools to interact with brokers
 net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
-sys-firmware/intel-microcode:initramfs - install a small initramfs for use with CONFIG_MICROCODE_EARLY
-sys-firmware/intel-microcode:monolithic - install the large text microcode.dat (used by older kernels via microcode_ctl)
-sys-firmware/intel-microcode:split-ucode - install the split binary ucode files (used by the kernel directly)
 vayerx/develop:cpp - C++ development
 vayerx/develop:database - Database-related staff
 vayerx/develop:math - Math-related staff
@@ -83,23 +61,6 @@ vayerx/office:mate - Use Mate/Gnome staff
 vayerx/office:rich - Don't mind installing excessive GUI staff
 vayerx/systaff:lxde - Use LXDE staff
 vayerx/systaff:rich - Don't mind installing excessive GUI staff
-www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
-www-client/firefox:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
-www-client/firefox:eme-free - Disable EME (DRM plugin) cabability at build time
-www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
-www-client/firefox:gtk2 - Use the cairo-gtk2 rendering engine
-www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
-www-client/firefox:jemalloc - Enable or disable jemalloc
-www-client/firefox:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
-www-client/firefox:rust - Enable support for using rust compiler (experimental)
-www-client/firefox:screenshot - Allow to disable screenshot extension in global profile
-www-client/firefox:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
-www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
-www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled.
-www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
-www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
-www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
-www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 www-plugins/gnash:agg - Rendering based on the Anti-Grain Geometry Rendering Engine library
 www-plugins/gnash:cygnal - Enable building of the cygnal server
 www-plugins/gnash:dump - Enable dump output module for creating video from SWF
@@ -111,7 +72,3 @@ www-plugins/gnash:openvg - Rendering based on the OpenVG graphics acceleration A
 www-plugins/gnash:sdl-sound - Enable SDL audio output for the standalone player
 www-plugins/gnash:ssh - Enable using SSH for network authentication in libnet
 www-plugins/gnash:ssl - Enable directly using OpenSSL in libnet (not needed for nsplugin ssl support)
-x11-drivers/ati-drivers:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
-x11-drivers/ati-drivers:modules - Build the kernel modules
-x11-drivers/ati-drivers:pax_kernel - Enable pax kernel specific patches
-x11-drivers/ati-drivers:qt4 - Install qt4 dependent optional tools (e.g Catalyst Control Panel)
