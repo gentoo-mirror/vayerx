@@ -47,6 +47,7 @@ dev-util/pycharm-community 2019.1.1: Intelligent Python IDE with unique code ass
 dev-util/pycharm-professional 2019.1.1: Intelligent Python IDE with unique code assistance and analysis
 dev-util/rubymine 2018.2.4 2018.3.2 2018.3.5 2019.1: The most intelligent Ruby and Rails IDE
 dev-vcs/git-flow-completion 0.4.1.0: git flow completion for bash and zsh
+dev-vcs/git-lfs 2.9.2: Command line extension and specification for managing large files with Git
 dev-vcs/git-review 9999: Tool to submit code to Gerrit
 dev-vcs/gitflow 0.4.1: Git extensions supporting an advanced branching model
 games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter.
