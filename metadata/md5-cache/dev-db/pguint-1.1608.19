@@ -8,5 +8,5 @@ KEYWORDS=amd64
 PROPERTIES=live
 RDEPEND=>=dev-db/postgresql-9.1
 SLOT=0
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	809e27702c573cbba31c08ed00bbad33
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
 _md5_=3b37425979d87fac93ae3898dbfef8ad
