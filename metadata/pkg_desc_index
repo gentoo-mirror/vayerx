@@ -4,6 +4,7 @@ app-crypt/etoken-sac 9.1.7_p0 10.0.32_p0: SafeNet (Aladdin) eTokens Middleware (
 app-misc/fdedup 1.0 9999: Yet another file deduplicator
 dev-cpp/cppstaff 0.4-r1: Miscellaneous C++ staff, vayerx edition
 dev-cpp/gtest 1.8.0 9999: Google C++ Testing Framework
+dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
 dev-db/pyrseas 9999: Framework and utilities to upgrade and maintain databases
 dev-libs/boost 1.62.0-r666 1.63.0-r666 1.65.0-r666 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666: Boost Libraries for C++
@@ -39,19 +40,19 @@ dev-util/gource 0.49: A software version control visualization tool
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/rubymine 2018.2.4 2018.3.2 2018.3.5 2019.1: The most intelligent Ruby and Rails IDE
 dev-vcs/git-lfs 2.9.2: Command line extension and specification for managing large files with Git
+games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter.
 games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
+games-action/survivor 1.0.3 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
 games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
 games-engines/renpy 6.18.3-r667: Visual novel engine written in python
 games-fps/alienarena 20120629-r1: Fast-paced multiplayer deathmatch game
 games-fps/sauerbraten 2010.07.28: Cube 2: Sauerbraten is an open source game engine (Cube 2) with freeware game data (Sauerbraten)
 games-fps/urbanterror 4.1-r1 4.1.1807.251210: Hollywood tactical shooter based on the ioquake3 engine
 games-misc/everlasting-summer 1.2: Everlasting Summer is a visual novel about the days past.
-games-rpg/lipsofsuna 0.8.0 9999: Tongue-in-cheek dungeon crawl game. Client and Server.
 games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
 media-gfx/bconv 0.0.8: Yet another ImageMagick hardcore gui-frontend with multi-processing.
 media-gfx/imgsrc 0.8.6-r1: Simple client for imgsrc.ru photo-hosting.
 media-sound/sndio 1.3.0 1.4.0-r1: small audio and MIDI framework part of the OpenBSD project
-net-libs/rabbitmq-c 0.7.1 0.8.0: RabbitMQ C client
 net-misc/ciscovpn 2.5.2019-r3: Cisco AnyConnect VPN Client
 net-print/cque 3.0.0: Canon CQue Linux Driver
 vayerx/develop 0.2-r1: Development meta package

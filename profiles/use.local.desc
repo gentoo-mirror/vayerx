@@ -40,11 +40,9 @@ dev-util/rubymine:rubocop - Install Rubocop code inspection
 games-engines/renpy:development - Install IDE for game developers and an empty game template
 games-fps/alienarena:rockethell - Increase missiles speed and amount of homing missiles per life.
 games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
-games-fps/alienarena-ng:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
 games-fps/urbanterror:client - Build client
 games-fps/urbanterror:server - Build server
 games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
-net-libs/rabbitmq-c:tools - Builds cli tools to interact with brokers
 net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
 vayerx/develop:cpp - C++ development
 vayerx/develop:database - Database-related staff
