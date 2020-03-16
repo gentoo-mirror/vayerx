@@ -2,7 +2,7 @@ app-admin/eselect-boost 0.5: boost module for eselect
 app-arch/libarchive 9999: Multi-format archive and compression library
 app-crypt/etoken-sac 9.1.7_p0 10.0.32_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-misc/fdedup 1.0 9999: Yet another file deduplicator
-dev-cpp/cppstaff 0.4-r1: Miscellaneous C++ staff, vayerx edition
+dev-cpp/cppstaff 0.5: Miscellaneous C++ staff, vayerx edition
 dev-cpp/gtest 1.8.0 9999: Google C++ Testing Framework
 dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
@@ -53,6 +53,7 @@ games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
 media-gfx/bconv 0.0.8: Yet another ImageMagick hardcore gui-frontend with multi-processing.
 media-gfx/imgsrc 0.8.6-r1: Simple client for imgsrc.ru photo-hosting.
 media-sound/sndio 1.3.0 1.4.0-r1: small audio and MIDI framework part of the OpenBSD project
+net-im/zoom-bin 3.5.361976.0301: Video conferencing and web conferencing service
 net-misc/ciscovpn 2.5.2019-r3: Cisco AnyConnect VPN Client
 net-print/cque 3.0.0: Canon CQue Linux Driver
 vayerx/develop 0.2-r1: Development meta package

@@ -9,8 +9,6 @@ app-arch/libarchive:nettle - Use dev-libs/nettle as crypto backend
 app-arch/libarchive:zlib - Allow accessing gzip-compressed archives through sys-libs/zlib. This only affects libarchive's native support: bsdtar will keep using gunzip as a filter if that's not built-in. It's also needed for supporting extraction of ZIP files.
 app-arch/libarchive:zstd - Enable support for zstd compression using app-arch/zstd
 dev-cpp/cppstaff:database - Database-related staff
-dev-cpp/cppstaff:exotic - Rarely used staff
-dev-cpp/cppstaff:rich - Don't mind installing excessive staff
 dev-cpp/cppstaff:testing - Modules for testing
 dev-cpp/gtest:gmock - Build also Google C++ mocking framework.
 dev-cpp/gtest:threads - Enable pthread.
