@@ -13,7 +13,7 @@ dev-libs/thrift 0.9.3 0.10.0 0.11.0: Software framework for scalable cross-langu
 dev-python/clickhouse-driver 0.1.1: ClickHouse Python Driver
 dev-python/elasticsearch-py 2.5.0: official Python low-level client for Elasticsearch
 dev-python/hdfs 2.1.0: HdfsCLI: API and command line interface for HDFS
-dev-python/overrides 1.9: A decorator to automatically detect mismatch when overriding a method.
+dev-python/overrides 2.8.0: A decorator to automatically detect mismatch when overriding a method.
 dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
 dev-python/portalocker 1.2.1: Generate random date(time)
 dev-python/profilehooks 1.8.1: Decorators for profiling Python functions
