@@ -39,7 +39,6 @@ dev-util/boost-build 1.62.0-r666 1.63.0-r666 1.65.0-r666 1.67.0-r666 1.68.0-r666
 dev-util/gource 0.49: A software version control visualization tool
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/rubymine 2018.2.4 2018.3.2 2018.3.5 2019.1: The most intelligent Ruby and Rails IDE
-dev-vcs/git-lfs 2.9.2: Command line extension and specification for managing large files with Git
 games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter.
 games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
 games-action/survivor 1.0.3 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
