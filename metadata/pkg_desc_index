@@ -49,8 +49,7 @@ games-fps/sauerbraten 2010.07.28: Cube 2: Sauerbraten is an open source game eng
 games-fps/urbanterror 4.1-r1 4.1.1807.251210: Hollywood tactical shooter based on the ioquake3 engine
 games-misc/everlasting-summer 1.2: Everlasting Summer is a visual novel about the days past.
 games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
-media-gfx/bconv 0.0.8: Yet another ImageMagick hardcore gui-frontend with multi-processing.
-media-gfx/imgsrc 0.8.6-r1: Simple client for imgsrc.ru photo-hosting.
+media-gfx/bconv 0.0.8-r1: Yet another ImageMagick hardcore gui-frontend with multi-processing.
 media-sound/sndio 1.3.0 1.4.0-r1: small audio and MIDI framework part of the OpenBSD project
 net-misc/ciscovpn 2.5.2019-r3: Cisco AnyConnect VPN Client
 net-print/cque 3.0.0: Canon CQue Linux Driver
