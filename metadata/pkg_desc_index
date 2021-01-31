@@ -11,17 +11,10 @@ dev-libs/boost 1.62.0-r666 1.63.0-r666 1.65.0-r666 1.67.0-r666 1.68.0-r666 1.70.
 dev-libs/hdfs3 9999: A Native C/C++ HDFS Client
 dev-libs/thrift 0.9.3 0.10.0 0.11.0: Software framework for scalable cross-language services development
 dev-python/clickhouse-driver 0.1.5 0.2.0: ClickHouse Python Driver
-dev-python/elasticsearch-py 2.5.0: official Python low-level client for Elasticsearch
-dev-python/hdfs 2.1.0: HdfsCLI: API and command line interface for HDFS
 dev-python/overrides 2.8.0 3.1.0: A decorator to automatically detect mismatch when overriding a method.
 dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
-dev-python/portalocker 1.2.1: Generate random date(time)
-dev-python/profilehooks 1.8.1: Decorators for profiling Python functions
-dev-python/pymssql 2.1.3: Simple MSSQL python extension module
 dev-python/pystaff 0.2: Miscellaneous Python staff, vayerx edition
 dev-python/pytest 3.1.3: Simple powerful testing with Python
-dev-python/python-json-logger 0.1.8: Generate random date(time)
-dev-python/radar 0.3: Generate random date(time)
 dev-ruby/debase 0.2.2-r3 0.2.3 0.2.5_beta2: ruby-debug is a fast implementation of the standard Ruby debugger
 dev-ruby/debase-ruby_core_source 0.10.3-r1 0.10.4-r1 0.10.9: Provide Ruby core source files for C extensions that need them.
 dev-ruby/jaro_winkler 1.5.2-r1 1.5.4: Implementation of Jaro-Winkler distance algorithm
@@ -33,7 +26,6 @@ dev-ruby/rubocop 0.62.0-r1 1.8.1: Automatic Ruby code style checking tool
 dev-ruby/ruby-debug-ide 0.7.0: An interface which glues ruby-debug to IDEs
 dev-ruby/unicode-display_width 2.0.0: Determines the monospace display width of a string
 dev-util/aptana 3.7.2: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
-dev-util/boost-build 1.62.0-r666 1.63.0-r666 1.65.0-r666 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666: A system for large project software construction, simple to use and powerful
 dev-util/gource 0.49: A software version control visualization tool
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/rubymine 2018.2.6 2019.1: The most intelligent Ruby and Rails IDE
@@ -41,7 +33,6 @@ games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter
 games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
 games-action/survivor 1.0.3 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
 games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
-games-engines/renpy 6.18.3-r667: Visual novel engine written in python
 games-fps/alienarena 20120629-r1: Fast-paced multiplayer deathmatch game
 games-fps/sauerbraten 2010.07.28: Cube 2: Sauerbraten is an open source game engine (Cube 2) with freeware game data (Sauerbraten)
 games-fps/urbanterror 4.1-r1 4.1.1807.251210: Hollywood tactical shooter based on the ioquake3 engine
@@ -56,5 +47,4 @@ vayerx/lxde 0.6: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
 vayerx/office 0.7-r1: Office staff meta
 vayerx/systaff 0.3: System staff meta
 www-plugins/gnash 0.8.10_p20160329-r667: GNU Flash movie player that supports many SWF v7,8,9 features
-x11-misc/obkey 1.0-r2: Openbox Key Editor, written in Python + PyGTK
 x11-misc/xtrlock 2.8-r10: A simplistic screen locking program for X
