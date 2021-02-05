@@ -13,6 +13,7 @@ dev-libs/thrift 0.9.3 0.10.0 0.11.0: Software framework for scalable cross-langu
 dev-python/clickhouse-driver 0.1.5 0.2.0: ClickHouse Python Driver
 dev-python/overrides 2.8.0 3.1.0: A decorator to automatically detect mismatch when overriding a method.
 dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
+dev-python/profilehooks 1.12.0: Decorators for profiling Python functions
 dev-python/pystaff 0.2: Miscellaneous Python staff, vayerx edition
 dev-python/pytest 3.1.3: Simple powerful testing with Python
 dev-ruby/debase 0.2.2-r3 0.2.3 0.2.5_beta2: ruby-debug is a fast implementation of the standard Ruby debugger
@@ -26,6 +27,7 @@ dev-ruby/rubocop 0.62.0-r1 1.8.1: Automatic Ruby code style checking tool
 dev-ruby/ruby-debug-ide 0.7.0: An interface which glues ruby-debug to IDEs
 dev-ruby/unicode-display_width 2.0.0: Determines the monospace display width of a string
 dev-util/aptana 3.7.2: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
+dev-util/boost-build 1.62.0-r666 1.63.0-r666 1.65.0-r666 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666: A system for large project software construction, simple to use and powerful
 dev-util/gource 0.49: A software version control visualization tool
 dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/rubymine 2018.2.6 2019.1: The most intelligent Ruby and Rails IDE
