@@ -3,7 +3,6 @@ app-arch/libarchive 9999: Multi-format archive and compression library
 app-crypt/etoken-sac 9.1.7_p0 10.0.32_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-misc/fdedup 1.0 9999: Yet another file deduplicator
 dev-cpp/cppstaff 0.5: Miscellaneous C++ staff, vayerx edition
-dev-cpp/gtest 1.8.0 9999: Google C++ Testing Framework
 dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
 dev-db/pyrseas 9999: Framework and utilities to upgrade and maintain databases
