@@ -26,8 +26,6 @@ dev-ruby/ruby-debug-ide 0.7.0: An interface which glues ruby-debug to IDEs
 dev-ruby/unicode-display_width 2.0.0: Determines the monospace display width of a string
 dev-util/aptana 3.7.2: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
 dev-util/boost-build 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666: A system for large project software construction, simple to use and powerful
-dev-util/gource 0.49: A software version control visualization tool
-dev-util/mutrace 0.2-r1: mutrace is a mutex tracer/profiler
 dev-util/rubymine 2018.2.6 2019.1: The most intelligent Ruby and Rails IDE
 games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter.
 games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
