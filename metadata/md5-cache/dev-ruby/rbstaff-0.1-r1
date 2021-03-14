@@ -1,10 +1,10 @@
 DEFINED_PHASES=-
 DESCRIPTION=Miscellaneous Ruby staff, vayerx edition
-EAPI=5
-HOMEPAGE=http://github.com/vayerx/vayerx-gentoo
+EAPI=7
+HOMEPAGE=https://github.com/vayerx/vayerx-gentoo
 IUSE=database datamining gui
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-3
 PDEPEND=database? ( dev-ruby/sqlite3 ) gui? ( dev-ruby/ruby-gtk3 ) datamining? ( dev-ruby/mechanize )
 SLOT=0
-_md5_=d297f7bb0993c2dfff23ab2535b5195a
+_md5_=2f0a9a7d3e0d2c20f9f43faae7455704
