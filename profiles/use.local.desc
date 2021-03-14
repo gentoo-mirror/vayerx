@@ -10,8 +10,6 @@ app-arch/libarchive:zlib - Allow accessing gzip-compressed archives through sys-
 app-arch/libarchive:zstd - Enable support for zstd compression using app-arch/zstd
 dev-cpp/cppstaff:database - Database-related staff
 dev-cpp/cppstaff:testing - Modules for testing
-dev-cpp/gtest:gmock - Build also Google C++ mocking framework.
-dev-cpp/gtest:threads - Enable pthread.
 dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
@@ -36,12 +34,7 @@ dev-ruby/rbstaff:gui - GUI development staff
 dev-util/rubymine:debugger - Install debugger
 dev-util/rubymine:rubocop - Install Rubocop code inspection
 games-engines/renpy:development - Install IDE for game developers and an empty game template
-games-fps/alienarena:rockethell - Increase missiles speed and amount of homing missiles per life.
-games-fps/alienarena:vidmode - Link against x11-libs/libXxf86vm. Required for full-screen support.
-games-fps/urbanterror:client - Build client
-games-fps/urbanterror:server - Build server
 games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
-net-misc/ciscovpn:unpacked - Provide TAR archive instead of installation script
 vayerx/develop:cpp - C++ development
 vayerx/develop:database - Database-related staff
 vayerx/develop:math - Math-related staff

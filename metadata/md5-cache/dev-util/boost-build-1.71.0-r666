@@ -1,15 +1,12 @@
-DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=python? ( python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) ) test? ( sys-apps/diffutils python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) )
+DEFINED_PHASES=compile configure install prepare test unpack
 DESCRIPTION=A system for large project software construction, simple to use and powerful
 EAPI=7
 HOMEPAGE=https://boostorg.github.io/build/
-IUSE=python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 examples python test
+IUSE=examples
 KEYWORDS=~amd64
 LICENSE=Boost-1.0
-RDEPEND=python? ( python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) )
-REQUIRED_USE=python? ( ^^ ( python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 ) ) test? ( ^^ ( python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 ) )
 RESTRICT=test
 SLOT=1.71
 SRC_URI=mirror://sourceforge/boost/boost_1_71_0.tar.bz2
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	2dc8e06a3429719b43e9140f7292a425	slotted-boost-build-r71	f52359e072e279555e949c63a0d08c9e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	prefix	de7d8e2b10085ed5ff09ad70e4753e5c	slotted-boost-build-r71	4d0fe3677e77cda4608a87722ee28a9d	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=e465d22eba38e97bedd09e5812b6b6fd
