@@ -33,8 +33,6 @@ dev-ruby/rbstaff:datamining - Packages for datamining
 dev-ruby/rbstaff:gui - GUI development staff
 dev-util/rubymine:debugger - Install debugger
 dev-util/rubymine:rubocop - Install Rubocop code inspection
-games-engines/renpy:development - Install IDE for game developers and an empty game template
-games-misc/everlasting-summer:system-renpy - Use games-engines/renpy instead of the bundled one
 vayerx/develop:cpp - C++ development
 vayerx/develop:database - Database-related staff
 vayerx/develop:math - Math-related staff

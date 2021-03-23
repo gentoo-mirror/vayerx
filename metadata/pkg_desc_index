@@ -31,7 +31,6 @@ games-action/shadowgrounds 1.0.3 9999: Shadowgrounds is 3rd-person alien-shooter
 games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
 games-action/survivor 1.0.3 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
 games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
-games-misc/everlasting-summer 1.2: Everlasting Summer is a visual novel about the days past.
 games-strategy/dunelegacy 0.96.2: Dune Legacy is an open source clone of Dune 2.
 media-gfx/bconv 0.0.8-r1: Yet another ImageMagick hardcore gui-frontend with multi-processing.
 vayerx/develop 0.2-r1: Development meta package
