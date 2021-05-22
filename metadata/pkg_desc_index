@@ -27,6 +27,10 @@ dev-ruby/unicode-display_width 2.0.0: Determines the monospace display width of 
 dev-util/aptana 3.7.2: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
 dev-util/boost-build 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666: A system for large project software construction, simple to use and powerful
 dev-util/rubymine 2018.2.6 2019.1: The most intelligent Ruby and Rails IDE
+games-action/shadowgrounds 9999: Shadowgrounds is 3rd-person alien-shooter.
+games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
+games-action/survivor 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
+games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
 media-gfx/bconv 0.0.8-r1: Yet another ImageMagick hardcore gui-frontend with multi-processing.
 vayerx/develop 0.2-r1: Development meta package
 vayerx/lxde 0.6: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
