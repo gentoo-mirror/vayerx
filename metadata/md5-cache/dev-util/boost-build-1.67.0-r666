@@ -1,16 +1,16 @@
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=python? ( python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) ) test? ( sys-apps/diffutils python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) )
+DEPEND=python? ( python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) ) test? ( sys-apps/diffutils python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) )
 DESCRIPTION=A system for large project software construction, simple to use and powerful
 EAPI=7
 HOMEPAGE=https://boostorg.github.io/build/
 INHERIT=slotted-boost-build-r67
-IUSE=python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 examples python test
+IUSE=python_single_target_python3_8 python_single_target_python3_9 examples python test
 KEYWORDS=~amd64
 LICENSE=Boost-1.0
-RDEPEND=python? ( python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) )
-REQUIRED_USE=python? ( ^^ ( python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 ) ) test? ( ^^ ( python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 ) )
+RDEPEND=python? ( python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) )
+REQUIRED_USE=python? ( ^^ ( python_single_target_python3_8 python_single_target_python3_9 ) ) test? ( ^^ ( python_single_target_python3_8 python_single_target_python3_9 ) )
 RESTRICT=test
 SLOT=1.67
 SRC_URI=mirror://sourceforge/boost/boost_1_67_0.tar.bz2
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	flag-o-matic	bc2e7662a4a9a8643be851982a837ddc	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	slotted-boost-build-r67	a39441258caa4c13d14a3058a5b67edc
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	flag-o-matic	bc2e7662a4a9a8643be851982a837ddc	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	slotted-boost-build-r67	a39441258caa4c13d14a3058a5b67edc
 _md5_=56616fe884202b5c117d9812677e57fe
