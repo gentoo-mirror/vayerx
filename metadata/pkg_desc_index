@@ -6,7 +6,7 @@ dev-cpp/cppstaff 0.5: Miscellaneous C++ staff, vayerx edition
 dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
 dev-db/pyrseas 9999: Framework and utilities to upgrade and maintain databases
-dev-libs/boost 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666: Boost Libraries for C++
+dev-libs/boost 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666 1.76.0-r666 1.77.0-r666: Boost Libraries for C++
 dev-libs/thrift 0.14.0: Software framework for scalable cross-language services development
 dev-python/clickhouse-driver 0.1.5 0.2.0: ClickHouse Python Driver
 dev-python/overrides 2.8.0 3.1.0: A decorator to automatically detect mismatch when overriding a method.
@@ -15,7 +15,7 @@ dev-python/profilehooks 1.12.0: Decorators for profiling Python functions
 dev-python/publicsuffixlist 0.7.7: Public Suffix List parser implementation.
 dev-python/pystaff 0.2: Miscellaneous Python staff, vayerx edition
 dev-ruby/debase 0.2.2-r3 0.2.3 0.2.5_beta2: ruby-debug is a fast implementation of the standard Ruby debugger
-dev-ruby/debase-ruby_core_source 0.10.3-r1 0.10.4-r1 0.10.9: Provide Ruby core source files for C extensions that need them.
+dev-ruby/debase-ruby_core_source 0.10.9: Provide Ruby core source files for C extensions that need them.
 dev-ruby/jaro_winkler 1.5.2-r1 1.5.4: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/optiflag 0.7-r2: Embeddable DSL library for declaring and using command-line options/flags.
 dev-ruby/parseconfig 1.1.0: Provides simple parsing of standard *nix style config files.
@@ -25,7 +25,7 @@ dev-ruby/rubocop 1.8.1: Automatic Ruby code style checking tool
 dev-ruby/ruby-debug-ide 0.7.0: An interface which glues ruby-debug to IDEs
 dev-ruby/unicode-display_width 2.0.0: Determines the monospace display width of a string
 dev-util/aptana 3.7.2: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
-dev-util/boost-build 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666: A system for large project software construction, simple to use and powerful
+dev-util/boost-build 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666 1.76.0-r666 1.77.0-r666: A system for large project software construction, simple to use and powerful
 dev-util/rubymine 2018.2.6 2019.1: The most intelligent Ruby and Rails IDE
 games-action/shadowgrounds 9999: Shadowgrounds is 3rd-person alien-shooter.
 games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
