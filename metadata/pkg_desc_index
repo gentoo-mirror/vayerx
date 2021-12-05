@@ -9,7 +9,7 @@ dev-db/pyrseas 9999: Framework and utilities to upgrade and maintain databases
 dev-libs/boost 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666 1.76.0-r666 1.77.0-r666: Boost Libraries for C++
 dev-libs/thrift 0.14.0: Software framework for scalable cross-language services development
 dev-python/clickhouse-driver 0.1.5 0.2.0: ClickHouse Python Driver
-dev-python/overrides 2.8.0 3.1.0: A decorator to automatically detect mismatch when overriding a method.
+dev-python/overrides 3.1.0: A decorator to automatically detect mismatch when overriding a method.
 dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
 dev-python/profilehooks 1.12.0: Decorators for profiling Python functions
 dev-python/publicsuffixlist 0.7.7: Public Suffix List parser implementation.
@@ -32,6 +32,7 @@ games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
 games-action/survivor 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
 games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
 media-gfx/bconv 0.0.8-r1: Yet another ImageMagick hardcore gui-frontend with multi-processing.
+sys-kernel/t150_driver 9999: A linux kernel module for Thrustmaster T150 Force Feedback Wheel
 vayerx/develop 0.2-r1: Development meta package
 vayerx/lxde 0.6: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
 vayerx/office 0.7-r1: Office staff meta
