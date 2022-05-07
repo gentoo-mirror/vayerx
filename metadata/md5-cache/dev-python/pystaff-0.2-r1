@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Miscellaneous Python staff, vayerx edition
+EAPI=7
+HOMEPAGE=http://github.com/vayerx/vayerx-gentoo
+IUSE=database rich +testing
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-3
+PDEPEND=dev-python/httplib2 rich? ( dev-python/git-python dev-python/paramiko ) testing? ( dev-python/mock ) database? ( dev-python/sqlalchemy )
+SLOT=0
+_md5_=283b3d91f4d56a0f18793b092bef07e4

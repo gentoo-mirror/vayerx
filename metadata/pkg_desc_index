@@ -13,7 +13,7 @@ dev-python/overrides 3.1.0: A decorator to automatically detect mismatch when ov
 dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
 dev-python/profilehooks 1.12.0: Decorators for profiling Python functions
 dev-python/publicsuffixlist 0.7.7: Public Suffix List parser implementation.
-dev-python/pystaff 0.2: Miscellaneous Python staff, vayerx edition
+dev-python/pystaff 0.2-r1: Miscellaneous Python staff, vayerx edition
 dev-ruby/debase 0.2.2-r3 0.2.3 0.2.5_beta2: ruby-debug is a fast implementation of the standard Ruby debugger
 dev-ruby/debase-ruby_core_source 0.10.9: Provide Ruby core source files for C extensions that need them.
 dev-ruby/jaro_winkler 1.5.2-r1 1.5.4: Implementation of Jaro-Winkler distance algorithm
