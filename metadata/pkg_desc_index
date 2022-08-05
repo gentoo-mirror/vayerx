@@ -1,5 +1,6 @@
 app-admin/eselect-boost 0.5: boost module for eselect
 app-crypt/etoken-sac 9.1.7_p0 10.0.32_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
+app-misc/fdedup 1.0 9999: Yet another file deduplicator
 dev-cpp/cppstaff 0.5: Miscellaneous C++ staff, vayerx edition
 dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
