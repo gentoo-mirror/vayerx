@@ -2,12 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-arch/libarchive:bzip2 - Allow accessing bzip2-compressed archives through libbz2 (which comes with app-arch/bzip2). This only affects libarchive's native support: bsdtar will keep using bunzip2 as a filter if that's not built-in.
-app-arch/libarchive:e2fsprogs - Use file flags from sys-fs/e2fsprogs headers instead of virtual/os-headers headers
-app-arch/libarchive:lz4 - Enable support for LZ4 compression using app-arch/lz4
-app-arch/libarchive:nettle - Use dev-libs/nettle as crypto backend
-app-arch/libarchive:zlib - Allow accessing gzip-compressed archives through sys-libs/zlib. This only affects libarchive's native support: bsdtar will keep using gunzip as a filter if that's not built-in. It's also needed for supporting extraction of ZIP files.
-app-arch/libarchive:zstd - Enable support for zstd compression using app-arch/zstd
 dev-cpp/cppstaff:database - Database-related staff
 dev-cpp/cppstaff:testing - Modules for testing
 dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
@@ -18,12 +12,6 @@ dev-libs/boost:nls - Build libboost_locale. This library requires compatible C l
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
-dev-libs/thrift:c_glib - c_glib
-dev-libs/thrift:cpp - cpp
-dev-libs/thrift:libevent - Enable libevent support.
-dev-libs/thrift:openssl - Enable openssl support.
-dev-libs/thrift:std-cxx11 - Enable std::thread support.
-dev-libs/thrift:stdthreads - Enable std::threads support.
 dev-python/publicsuffixlist:update - Support fetching of public_suffix_list.dat from publicsuffix.org
 dev-python/pystaff:database - Database-related staff
 dev-python/pystaff:rich - Don't mind installing excessive/rarely used staff
