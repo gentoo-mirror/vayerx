@@ -35,5 +35,4 @@ vayerx/develop 0.2-r1: Development meta package
 vayerx/lxde 0.6: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
 vayerx/office 0.7-r1: Office staff meta
 vayerx/systaff 0.3: System staff meta
-www-plugins/gnash 0.8.10_p20160329-r667: GNU Flash movie player that supports many SWF v7,8,9 features
 x11-misc/xtrlock 2.15-r10: A simplistic screen locking program for X
