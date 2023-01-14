@@ -4,11 +4,9 @@ app-misc/fdedup 1.0 9999: Yet another file deduplicator
 dev-cpp/cppstaff 0.5: Miscellaneous C++ staff, vayerx edition
 dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
 dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
-dev-db/pyrseas 9999: Framework and utilities to upgrade and maintain databases
 dev-libs/boost 1.67.0-r666 1.68.0-r666 1.70.0-r666 1.71.0-r666 1.72.0-r666 1.73.0-r666 1.74.0-r666 1.75.0-r666 1.76.0-r666 1.77.0-r666: Boost Libraries for C++
 dev-python/clickhouse-driver 0.1.5 0.2.0: ClickHouse Python Driver
 dev-python/overrides 3.1.0 6.5.0 7.0.0: A decorator to automatically detect mismatch when overriding a method.
-dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
 dev-python/profilehooks 1.12.0: Decorators for profiling Python functions
 dev-python/publicsuffixlist 0.7.7: Public Suffix List parser implementation.
 dev-python/pystaff 0.2-r1: Miscellaneous Python staff, vayerx edition
