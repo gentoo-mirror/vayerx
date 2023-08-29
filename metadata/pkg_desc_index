@@ -2,17 +2,13 @@ app-crypt/etoken-sac 9.1.7_p0 10.0.32_p0: SafeNet (Aladdin) eTokens Middleware (
 app-misc/fdedup 1.0 9999: Yet another file deduplicator
 dev-cpp/cppstaff 0.5: Miscellaneous C++ staff, vayerx edition
 dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
-dev-db/pguint 1.1608.19: Unsigned and other extra integer types for PostgreSQL
 dev-db/pyrseas 9999: Framework and utilities to upgrade and maintain databases
 dev-python/overrides 3.1.0 6.5.0 7.0.0: A decorator to automatically detect mismatch when overriding a method.
 dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
 dev-python/pystaff 0.2-r1: Miscellaneous Python staff, vayerx edition
 dev-ruby/rbstaff 0.1-r1: Miscellaneous Ruby staff, vayerx edition
-dev-util/aptana 3.7.2: Eclipse IDE for building, editing and debugging HTML/CSS/JavaScript/PHP/Ruby on Rails.
 games-action/shadowgrounds 9999: Shadowgrounds is 3rd-person alien-shooter.
-games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
 games-action/survivor 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
-games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
 sys-kernel/t150_driver 0.7 9999: A linux kernel module for Thrustmaster T150 Force Feedback Wheel
 vayerx/develop 0.2-r1: Development meta package
 vayerx/lxde 0.6: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
