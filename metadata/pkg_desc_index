@@ -7,9 +7,7 @@ dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with P
 dev-python/pystaff 0.2-r1: Miscellaneous Python staff, vayerx edition
 dev-ruby/rbstaff 0.1-r1: Miscellaneous Ruby staff, vayerx edition
 games-action/shadowgrounds 9999: Shadowgrounds is 3rd-person alien-shooter.
-games-action/shadowgrounds-data 0_beta11: Shadowgrounds - data portion
 games-action/survivor 9999: Shadowgrounds Survivor is 3rd-person alien-shooter.
-games-action/survivor-data 0_beta11: Shadowgrounds Survivor - data portion
 sys-kernel/t150_driver 0.7 9999: A linux kernel module for Thrustmaster T150 Force Feedback Wheel
 vayerx/develop 0.2-r1: Development meta package
 vayerx/lxde 0.6: Meta ebuild for LXDE, the Lightweight X11 Desktop Environment
