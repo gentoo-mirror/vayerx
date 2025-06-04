@@ -1,9 +1,6 @@
 app-misc/fdedup 1.0 9999: Yet another file deduplicator
 dev-cpp/cppstaff 0.5: Miscellaneous C++ staff, vayerx edition
 dev-db/mdbx 9999: Key-value embedded data storage, fork of LMDB
-dev-db/pyrseas 9999: Framework and utilities to upgrade and maintain databases
-dev-python/overrides 3.1.0 6.5.0 7.0.0: A decorator to automatically detect mismatch when overriding a method.
-dev-python/pgdbconn 9999: Object-oriented layer over Psycopg2 to interact with Postgres databases
 dev-python/pystaff 0.2-r1: Miscellaneous Python staff, vayerx edition
 dev-ruby/rbstaff 0.1-r1: Miscellaneous Ruby staff, vayerx edition
 games-action/shadowgrounds 9999: Shadowgrounds is 3rd-person alien-shooter.
